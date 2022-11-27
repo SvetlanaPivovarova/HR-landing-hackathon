@@ -1,0 +1,17 @@
+@font-face {
+  src: url(./YS-Text-Medium.ttf) format('truetype');
+  font-family: 'YS Text';
+  font-style: medium;
+} 
+
+@font-face {
+  src: url(./YS-Text-Regular.ttf) format('truetype');
+  font-family: 'YS Text';
+  font-style: regular;
+} 
+
+@font-face {
+  src: url(./YS-Text-Bold.ttf) format('truetype');
+  font-family: 'YS Text';
+  font-style: bold;
+} 

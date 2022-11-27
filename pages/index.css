@@ -1,3 +1,10 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
-@import url(../vendor/fonts.css);
+h1 {
+  font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+}
