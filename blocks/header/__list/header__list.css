@@ -1,0 +1,6 @@
+.header__list {
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+}

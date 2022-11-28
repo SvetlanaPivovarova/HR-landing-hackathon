@@ -2,6 +2,14 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lists/header__lists.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__blur/intro__blur.css);
 @import url(../blocks/intro/__button/intro__button.css);
@@ -22,6 +30,24 @@
 @import url(../blocks/intro/__img/_img7/intro__img_type_img7.css);
 @import url(../blocks/intro/__img/_img8/intro__img_type_img8.css);
 @import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
+@import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz/__title/quiz__title.css);
+@import url(../blocks/quiz/__prompt/quiz__prompt.css);
+@import url(../blocks/quiz/__container/quiz__container.css);
+@import url(../blocks/quiz/__items/quiz__items.css);
+@import url(../blocks/quiz/__item/quiz__item.css);
+@import url(../blocks/quiz/_type/quiz_type_role.css);
+@import url(../blocks/quiz/_type/quiz_type_reverse.css);
+@import url(../blocks/quiz/__role-card/quiz__role-card.css);
+@import url(../blocks/quiz/__card-title/quiz__card-title.css);
+@import url(../blocks/quiz/__card-text/quiz__card-text.css);
+@import url(../blocks/quiz/__card-tasks/quiz__card-tasks.css);
+@import url(../blocks/quiz/__card-task/quiz__card-task.css);
+@import url(../blocks/quiz/__card-task-item/quiz__card-task-item.css);
+@import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_below.css);
+@import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_over.css);
+@import url(../blocks/quiz/__image/quiz__image.css);
+@import url(../blocks/quiz/__button/quiz__button.css);
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/histories/__container/histories__container.css);
 @import url(../blocks/histories/__title/histories__title.css);
@@ -34,3 +60,26 @@
 @import url(../blocks/histories/__arrows/histories__arrows.css);
 @import url(../blocks/histories/__arrow/histories__arrow.css);
 @import url(../blocks/histories/__arrow/_type/histories__arrow_type_right.css);
+
+/* h1 {
+  font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+}
+
+:root {
+  --main-title-color: #000000;
+  --white-background: #ffffff;
+  --very-light-grey-background: #EFEEEE;
+  --light-grey-background: rgba(217, 217, 217, 0.6);
+  --medium-grey-background: #C2C2C2;
+  --light-bezh-card-background: #F0EEEE;
+  --medium-bezh-card-background: #D9D9D9;
+  --main-button: #B5B5B5;
+} */
+
+
+
+
