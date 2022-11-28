@@ -1,0 +1,19 @@
+{
+  "name": "hr-landing-hackathon",
+  "version": "1.0.0",
+  "description": "landing for recruting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaPivovarova/HR-landing-hackathon.git"
+  },
+  "author": "Фаталиев Джамал, Пантелеева Анна, Пивоварова Светлана",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaPivovarova/HR-landing-hackathon/issues"
+  },
+  "homepage": "https://github.com/SvetlanaPivovarova/HR-landing-hackathon#readme"
+}
