@@ -1,8 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/root/root.css);
 @import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lists/header__lists.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__blur/intro__blur.css);
 @import url(../blocks/intro/__button/intro__button.css);
@@ -23,15 +30,6 @@
 @import url(../blocks/intro/__img/_img7/intro__img_type_img7.css);
 @import url(../blocks/intro/__img/_img8/intro__img_type_img8.css);
 @import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/header/__nav-container/header__nav-container.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lists/header__lists.css);
-@import url(../blocks/header/__list/header__list.css);
-@import url(../blocks/header/__list-link/header__list-link.css);
-@import url(../blocks/header/__btn/header__btn.css);
-
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__title/quiz__title.css);
 @import url(../blocks/quiz/__prompt/quiz__prompt.css);
@@ -50,8 +48,20 @@
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_over.css);
 @import url(../blocks/quiz/__image/quiz__image.css);
 @import url(../blocks/quiz/__button/quiz__button.css);
+@import url(../blocks/histories/histories.css);
+@import url(../blocks/histories/__container/histories__container.css);
+@import url(../blocks/histories/__title/histories__title.css);
+@import url(../blocks/histories/__subtitle/histories__subtitle.css);
+@import url(../blocks/histories/__slider/histories__slider.css);
+@import url(../blocks/histories/__slider-item/histories__slider-item.css);
+@import url(../blocks/histories/__slider-title/histories__slider-title.css);
+@import url(../blocks/histories/__slider-subtitle/histories__slider-subtitle.css);
+@import url(../blocks/histories/__slider-image/histories__slider-image.css);
+@import url(../blocks/histories/__arrows/histories__arrows.css);
+@import url(../blocks/histories/__arrow/histories__arrow.css);
+@import url(../blocks/histories/__arrow/_type/histories__arrow_type_right.css);
 
-h1 {
+/* h1 {
   font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -68,7 +78,8 @@ h1 {
   --light-bezh-card-background: #F0EEEE;
   --medium-bezh-card-background: #D9D9D9;
   --main-button: #B5B5B5;
-}
+} */
+
 
 
 
