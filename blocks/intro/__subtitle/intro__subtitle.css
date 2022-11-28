@@ -1,5 +1,5 @@
 .intro__subtitle {
-  font-weight: 400;
+  font-weight: var(--font-weight-regular);
   font-size: 32px;
   line-height: 38px;
   max-width: 710px;
