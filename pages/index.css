@@ -1,6 +1,37 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/root/root.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__blur/intro__blur.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__img-block/intro__img-block.css);
+@import url(../blocks/intro/__img-block/_left/intro__img-block_type_left.css);
+@import url(../blocks/intro/__img-block/_right/intro__img-block_type_right.css);
+@import url(../blocks/intro/__img-container/intro__img-container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text-container/intro__text-container.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__img/intro__img.css);
+@import url(../blocks/intro/__img/_img1/intro__img_type_img1.css);
+@import url(../blocks/intro/__img/_img2/intro__img_type_img2.css);
+@import url(../blocks/intro/__img/_img3/intro__img_type_img3.css);
+@import url(../blocks/intro/__img/_img4/intro__img_type_img4.css);
+@import url(../blocks/intro/__img/_img5/intro__img_type_img5.css);
+@import url(../blocks/intro/__img/_img6/intro__img_type_img6.css);
+@import url(../blocks/intro/__img/_img7/intro__img_type_img7.css);
+@import url(../blocks/intro/__img/_img8/intro__img_type_img8.css);
+@import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lists/header__lists.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__btn/header__btn.css);
+
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__title/quiz__title.css);
 @import url(../blocks/quiz/__prompt/quiz__prompt.css);

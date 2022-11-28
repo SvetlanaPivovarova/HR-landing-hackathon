@@ -1,0 +1,8 @@
+.intro__img-container {
+  position: absolute;
+  z-index: -2;
+  display: flex;
+  top: 0;
+  right: 31px;
+  gap: 40px;
+}
