@@ -1,0 +1,5 @@
+.histories__slider-item {
+  border-radius: 54px;
+  background-color: var(--medium-bezh-card-background);
+  height: 100%;
+}

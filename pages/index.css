@@ -22,3 +22,9 @@
 @import url(../blocks/intro/__img/_img7/intro__img_type_img7.css);
 @import url(../blocks/intro/__img/_img8/intro__img_type_img8.css);
 @import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
+@import url(../blocks/histories/histories.css);
+@import url(../blocks/histories/__container/histories__container.css);
+@import url(../blocks/histories/__title/histories__title.css);
+@import url(../blocks/histories/__subtitle/histories__subtitle.css);
+@import url(../blocks/histories/__slider/histories__slider.css);
+@import url(../blocks/histories/__slider-item/histories__slider-item.css);
