@@ -4,7 +4,8 @@
   "description": "landing for recruting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/SvetlanaPivovarova/HR-landing-hackathon/issues"
   },
-  "homepage": "https://github.com/SvetlanaPivovarova/HR-landing-hackathon#readme"
+  "homepage": "https://github.com/SvetlanaPivovarova/HR-landing-hackathon#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
