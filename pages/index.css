@@ -28,3 +28,6 @@
 @import url(../blocks/histories/__subtitle/histories__subtitle.css);
 @import url(../blocks/histories/__slider/histories__slider.css);
 @import url(../blocks/histories/__slider-item/histories__slider-item.css);
+@import url(../blocks/histories/__slider-title/histories__slider-title.css);
+@import url(../blocks/histories/__slider-subtitle/histories__slider-subtitle.css);
+@import url(../blocks/histories/__slider-image/histories__slider-image.css);
