@@ -3,8 +3,17 @@
 
 h1 {
   font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
-  font-style: medium;
+  font-style: normal;
   font-weight: 500;
   font-size: 27px;
   line-height: 32px;
+}
+
+:root {
+  --main-title-color: #000000;
+  --white-background: #ffffff;
+  --light-grey-background: rgba(217, 217, 217, 0.6);
+  --medium-grey-background: #C2C2C2;
+  --light-bezh-card-background: #F0EEEE;
+  --medium-bezh-card-background: #D9D9D9;
 }
