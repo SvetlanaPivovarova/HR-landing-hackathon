@@ -1,0 +1,9 @@
+.intro__img {
+  background-size: 325px 215px;
+  width: 325px;
+  height: 215px;
+  margin-top: 41px;
+}
+.intro__img:first-of-type {
+  margin: 0;
+}

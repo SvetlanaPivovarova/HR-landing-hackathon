@@ -1,0 +1,11 @@
+.intro__blur {
+  position: absolute;
+  top: 165px;
+  left: -49px;
+  z-index: -1;
+  background-color: var(--light-grey-background);
+  filter: blur(92px);
+  border-radius: 50%;
+  height: 522px;
+  width: 1061px;
+}
