@@ -8,13 +8,14 @@
 @import url(../blocks/quiz/__items/quiz__items.css);
 @import url(../blocks/quiz/__item/quiz__item.css);
 @import url(../blocks/quiz/_type/quiz_type_role.css);
+@import url(../blocks/quiz/_type/quiz_type_reverse.css);
 @import url(../blocks/quiz/__role-card/quiz__role-card.css);
 @import url(../blocks/quiz/__card-title/quiz__card-title.css);
 @import url(../blocks/quiz/__card-text/quiz__card-text.css);
 @import url(../blocks/quiz/__card-tasks/quiz__card-tasks.css);
 @import url(../blocks/quiz/__card-task/quiz__card-task.css);
 @import url(../blocks/quiz/__card-task-item/quiz__card-task-item.css);
-@import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_mentor.css);
+@import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_below.css);
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_over.css);
 @import url(../blocks/quiz/__image/quiz__image.css);
 @import url(../blocks/quiz/__button/quiz__button.css);
