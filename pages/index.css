@@ -1,6 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz/__title/quiz__title.css);
+@import url(../blocks/quiz/__prompt/quiz__prompt.css);
+@import url(../blocks/quiz/__container/quiz__container.css);
+@import url(../blocks/quiz/__items/quiz__items.css);
+@import url(../blocks/quiz/__item/quiz__item.css);
+
 h1 {
   font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -17,3 +24,6 @@ h1 {
   --light-bezh-card-background: #F0EEEE;
   --medium-bezh-card-background: #D9D9D9;
 }
+
+
+
