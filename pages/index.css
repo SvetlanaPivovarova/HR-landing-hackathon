@@ -1,10 +1,77 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-h1 {
+
+.body {
   font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
-  font-style: medium;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.intro {
+  position: relative;
+  overflow: hidden;
+  min-height: 909px;
+}
+.intro__text-container {
+  padding: 230px 0 0 102px;
+}
+.intro__title {
   font-weight: 500;
-  font-size: 27px;
-  line-height: 32px;
+  font-size: 82px;
+  line-height: 96px;
+  margin: 0;
+  max-width: 992px;
+  letter-spacing: .5px;
+}
+.intro__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  max-width: 710px;
+  margin: 40px 0 0 0;
+}
+.intro__blur {
+  position: absolute;
+  top: 165px;
+  left: -49px;
+  z-index: -1;
+  background-color: rgba(217, 217, 217, .7);
+  filter: blur(92px);
+  border-radius: 50%;
+  height: 522px;
+  width: 1061px;
+}
+.intro__button {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  padding: 16px 47px;
+  background-color: #C2C2C2;
+  border-radius: 30px;
+  margin-top: 80px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+.intro__img-block {
+  position: absolute;
+  z-index: -2;
+}
+.intro__img-block_type_left {
+  top: -20px;
+  right: 396px;
+}
+.intro__img-block_type_right {
+  top: -138px;
+  right: 30px;
+}
+.intro__img {
+  background-image: url(../images/intro/img-3.jpg);
+  background-size: 325px 215px;
+  width: 325px;
+  height: 215px;
+  margin-top: 41px;
+}
+.intro__img:first-of-type {
+  margin: 0;
 }
