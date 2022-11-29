@@ -1,0 +1,6 @@
+.expert__number {
+  font-weight: var(--font-weight-bold);
+  font-size: 40px;
+  line-height: 47px;
+  margin: 0;
+}
