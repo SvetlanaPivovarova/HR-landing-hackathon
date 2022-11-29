@@ -61,8 +61,12 @@
 @import url(../blocks/histories/__arrow/histories__arrow.css);
 
 @import url(../blocks/roles/roles.css);
-
-
+@import url(../blocks/roles/__container/roles__container.css);
+@import url(../blocks/roles/__item/roles__item.css);
+@import url(../blocks/roles/__card/roles__card.css);
+@import url(../blocks/roles/__image/roles__image.css);
+@import url(../blocks/roles/__heading/roles__heading.css);
+@import url(../blocks/roles/__text/roles__text.css);
 
 
 
