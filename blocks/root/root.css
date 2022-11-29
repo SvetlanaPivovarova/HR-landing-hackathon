@@ -4,6 +4,8 @@
   --white-background: #fff;
   --light-grey-background: rgba(217, 217, 217, .6);
   --medium-grey-background: #C2C2C2;
+  --light-bezh-background: #FFFFFF;
+  --medium-bezh-background: #F7F7F7;
   --light-bezh-card-background: #F0EEEE;
   --medium-bezh-card-background: #D9D9D9;
   --header-link-color: #333;
@@ -12,6 +14,5 @@
   --font-weight-medium: 500;
   --font-weight-bold: 700;
   --yellow-intro-button: #FCD559;
-  --bg-faculties: #F7F7F7;
   --bg-hover: #E2E2E2;
 }
