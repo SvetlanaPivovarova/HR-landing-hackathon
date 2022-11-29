@@ -1,0 +1,7 @@
+.footer__wrapper_content_info {
+  margin: 0 74px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 106px;
+  min-width: 432px;
+}
