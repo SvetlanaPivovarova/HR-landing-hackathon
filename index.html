@@ -5,6 +5,7 @@
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/faq.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -141,6 +142,42 @@
         </div>
       </div>
     </section>
+    <section class="faq">
+      <h2 class="faq__title">Частые вопросы (FAQ)</h2>
+      <details class="faq__accordion-item">
+        <summary class="faq__accordion-title">
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          Как устроиться на работу?
+        </summary>
+        <ul class="faq__accordion-list">
+          <li class="faq__accordion-text">Выберите роль и заполните заявку</li>
+          <li class="faq__accordion-text">Пройдите отбор и бесплатное обучение</li>
+          <li class="faq__accordion-text">Начните делиться знаниями со студентами Яндекс Практикума</li>
+        </ul>
+        <button class="faq__button">Подобрать вакансии</button>
+      </details>
+      <details class="faq__accordion-item">
+        <summary class="faq__accordion-title">
+          Я не нашёл подходящую вакансию, но хочу у вас работать. Что делать?
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+        </summary>
+        <p class="faq__accordion-text">Вы можете отправить нам заявку здесь, как только появится подходящая вакансия, мы обязательно с вами свяжемся!</p>
+      </details>
+      <details class="faq__accordion-item">
+        <summary class="faq__accordion-title">
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          Оставил отклик, но не получил обратной связи. С кем мне связаться?
+        </summary>
+        <p class="faq__accordion-text">Как только появится подходящая вакансия наш HR-менджер обязательно с вами свяжется, так же вы можете связаться с нами по номеру 8-800-700-93-29 и мы более подробно ответим на все ваши вопросы.</p>
+      </details>
+      <details class="faq__accordion-item">
+        <summary class="faq__accordion-title">
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          Какой у вас график?
+        </summary>
+        <p class="faq__accordion-text">В нашей команде свободный график 2-3 часа в день. Вы можете самостоятельно подстраивать рабочие процессы под себя.</p>
+      </details>
+    </section>
   </main>
   <footer class="footer">
     <section class="footer__container">
@@ -177,6 +214,7 @@
       </div>
     </section>
   </footer>
+
   <template class="faculties-template">
     <article class="faculties-card">
       <h3 class="faculties-card__title"></h3>
@@ -188,5 +226,6 @@
       </div>
     </article>
   </template>
+  
 </body>
 </html>

@@ -59,7 +59,6 @@
 @import url(../blocks/histories/__slider-image/histories__slider-image.css);
 @import url(../blocks/histories/__arrows/histories__arrows.css);
 @import url(../blocks/histories/__arrow/histories__arrow.css);
-@import url(../blocks/histories/__arrow/_type/histories__arrow_type_right.css);
 @import url(../blocks/faculties/faculties.css);
 @import url(../blocks/faculties/__card-container/faculties__card-container.css);
 @import url(../blocks/faculties/__title/faculties__title.css);
@@ -70,6 +69,14 @@
 @import url(../blocks/faculties-card/__number-courses/faculties-card__number-courses.css);
 @import url(../blocks/faculties-card/__title/faculties-card__title.css);
 @import url(../blocks/faculties-card/__text-container/faculties-card__text-container.css);
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__accordion-item/faq__accordion-item.css);
+@import url(../blocks/faq/__accordion-title/faq__accordion-title.css);
+@import url(../blocks/faq/__accordion-plus/faq__accordion-plus.css);
+@import url(../blocks/faq/__accordion-list/faq__accordion-list.css);
+@import url(../blocks/faq/__accordion-text/faq__accordion-text.css);
+@import url(../blocks/faq/__button/faq__button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__column/footer__column.css);
