@@ -72,6 +72,12 @@
 @import url(../blocks/faculties-card/__text-container/faculties-card__text-container.css);
 @import url(../blocks/faq/faq.css);
 @import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__accordion-item/faq__accordion-item.css);
+@import url(../blocks/faq/__accordion-title/faq__accordion-title.css);
+@import url(../blocks/faq/__accordion-plus/faq__accordion-plus.css);
+@import url(../blocks/faq/__accordion-list/faq__accordion-list.css);
+@import url(../blocks/faq/__accordion-text/faq__accordion-text.css);
+@import url(../blocks/faq/__button/faq__button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -106,7 +112,3 @@ h1 {
   --medium-bezh-card-background: #D9D9D9;
   --main-button: #B5B5B5;
 }
-
-
-
-

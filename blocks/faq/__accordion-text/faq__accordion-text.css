@@ -1,0 +1,6 @@
+.faq__accordion-text {
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  line-height: 1.28;
+  margin: 0 0 15px;
+}
