@@ -5,6 +5,7 @@
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/createRoles.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -123,13 +124,7 @@
     <section class="roles">
       <h2>В&nbsp;роли наставника и&nbsp;ревьюера вы&nbsp;будете:</h2>
       <ul class="roles__container">
-        <li class="roles__item">
-          <article class="role__card">
-            <img class="role__image" src="images/roles_image_001.png" alt="Иллюстрация роли" />
-            <h3 class="role__heading"></h3>
-            <p class="role__text"></p>
-          </article>
-        </li>
+
       </ul>
     </section>
 
@@ -187,6 +182,15 @@
       </div>
     </section>
   </footer>
+  <template>
+    <li class="roles__item role-template">
+      <article class="role__card">
+        <img class="role__image" src="" alt="Иллюстрация роли" />
+        <h3 class="role__heading"></h3>
+        <p class="role__text"></p>
+      </article>
+    </li>
+  </template>
   <template class="faculties-template">
     <article class="faculties-card">
       <h3 class="faculties-card__title"></h3>
@@ -198,5 +202,6 @@
       </div>
     </article>
   </template>
+
 </body>
 </html>
