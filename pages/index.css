@@ -85,14 +85,11 @@
 @import url(../blocks/footer/__wrapper-links/_content/footer__wrapper-links_content_info.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
-
-h1 {
-  font-family: 'YS Text', 'Arial', 'Helvetica', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 27px;
-  line-height: 32px;
-}
+@import url(../blocks/offers/offers.css);
+@import url(../blocks/offers/__btn/offers__btn.css);
+@import url(../blocks/offers/__rectangle/offers__rectangle.css);
+@import url(../blocks/offers/__title/offers__title.css);
+@import url(../blocks/offers/__subtitle/offers__subtitle.css);
 
 :root {
   --main-title-color: #000000;
@@ -104,7 +101,3 @@ h1 {
   --medium-bezh-card-background: #D9D9D9;
   --main-button: #B5B5B5;
 }
-
-
-
-
