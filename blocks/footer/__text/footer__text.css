@@ -1,0 +1,7 @@
+.footer__text {
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--main-title-color);
+  margin: 0;
+}
