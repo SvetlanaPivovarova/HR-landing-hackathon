@@ -1,0 +1,11 @@
+.quiz__role-card {
+  min-height: 677px;
+  width: 1149px;
+  background-color: var(--very-light-grey-background);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 85px 0 150px 95px;
+  box-sizing: border-box;
+}

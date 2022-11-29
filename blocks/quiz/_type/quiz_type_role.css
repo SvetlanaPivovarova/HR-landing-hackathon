@@ -1,0 +1,7 @@
+.quiz_type_role {
+  min-height: 677px;
+  display: flex;
+  position: relative;
+  background-color: var(--white-background);
+  padding: 47px 107px 54px 24px;
+}
