@@ -1,0 +1,11 @@
+.expert__btn {
+  cursor: pointer;
+  border: none;
+  background-color: var(--yellow-button);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: var(--font-weight-medium);
+  font-size: 27px;
+  line-height: 130%;
+  width: 310px;
+}
