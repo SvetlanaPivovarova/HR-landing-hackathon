@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/index.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,6 +111,12 @@
         <img class="quiz__image" src="./images/portrait_placeholder.png" alt="Наставник">
       </div>
     </section>
+    <section class="faculties">
+      <h2 class="faculties__title">Наши факультеты</h2>
+      <div class="faculties__card-container">
+
+      </div>
+    </section>
 
     <!--Блок "В роли наставника и ревьюера вы будете"-->
 
@@ -147,6 +153,50 @@
     </section>
   </main>
   <footer class="footer">
+    <section class="footer__container">
+      <div class="footer__column">
+        <a href="+78007009329" class="footer__telephone">8-800-700-93-29</a>
+        <p class="footer__text">Звонок по России бесплатный</p>
+        <nav class="footer__wrapper">
+          <ul class="footer__wrapper-links">
+            <li><a class="footer__link footer__text" href="#">Журнал</a></li>
+            <li><a href="#"><img src="./images/footer-whatsapp.svg" alt="Ссылка на WhatsApp" class="footer__link-icon"></a></li>
+            <li><a href="#"><img src="./images/footer-telegram.svg" alt="" class="footer__link-icon"></a></li>
+          </ul>
+        </nav>
+        <p class="footer__text footer__text_type_paragraph">&#169; 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
+      </div>
+      <div class="footer__column">
+        <nav class="footer__wrapper footer__wrapper_content_info">
+          <ul class="footer__wrapper-links footer__wrapper-links_content_info">
+            <li><a class="footer__link footer__text" href="#">Помощь</a></li>
+            <li><a class="footer__link footer__text" href="#">Вакансия</a></li>
+            <li><a class="footer__link footer__text" href="#">Лицензия</a></li>
+          </ul>
+          <ul class="footer__wrapper-links footer__wrapper-links_content_info">
+            <li><a class="footer__link footer__text" href="#">Правовая информация</a></li>
+            <li><a class="footer__link footer__text" href="#">Для работодателей</a></li>
+            <li><a class="footer__link footer__text" href="#">Отзывы</a></li>
+          </ul>
+        </nav>
+        <ul class="footer__wrapper footer__wrapper_content_juridical">
+          <li class="footer__text footer__text_type_juridical">Информация на данной странице описывает возможные варианты получения дополнительного дохода в месяц (т.н. подработка). Не является предложением о работе. Размещенные объявления о потребности в тех или иных услугах не являются вакансиями.</li>
+          <li class="footer__text footer__text_type_juridical">Образовательные услуги оказываются АНО ДПО «ШАД», ШАД — это Школа анализа данных, основанная Яндексом и оказывающая образовательные услуги на основании Лицензии №036031 от 24 марта 2015 года.</li>
+          <li class="footer__text footer__text_type_juridical">Сертификат о прохождении обучения по программе дополнительного профессионального образования также выдается АНО ДПО «ШАД».</li>
+        </ul>
+      </div>
+    </section>
   </footer>
+  <template class="faculties-template">
+    <article class="faculties-card">
+      <h3 class="faculties-card__title"></h3>
+      <div class="faculties-card__text-container">
+        <p class="faculties-card__courses"></p>
+        <div class="faculties-card__number-container">
+          <p class="faculties-card__number-courses"></p>
+        </div>
+      </div>
+    </article>
+  </template>
 </body>
 </html>

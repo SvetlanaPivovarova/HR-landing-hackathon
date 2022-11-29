@@ -1,7 +1,7 @@
 .intro__blur {
   position: absolute;
-  top: 165px;
-  left: -49px;
+  top: 109px;
+  left: 0;
   z-index: -1;
   background-color: var(--light-grey-background);
   filter: blur(92px);

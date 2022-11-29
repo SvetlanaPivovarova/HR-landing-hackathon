@@ -1,0 +1,7 @@
+.footer__wrapper-links_content_info {
+  flex-direction: column;
+  max-height: 109px;
+  gap: 20px;
+  margin: 0;
+  max-width: fit-content;
+}
