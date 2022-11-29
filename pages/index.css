@@ -60,6 +60,16 @@
 @import url(../blocks/histories/__arrows/histories__arrows.css);
 @import url(../blocks/histories/__arrow/histories__arrow.css);
 @import url(../blocks/histories/__arrow/_type/histories__arrow_type_right.css);
+@import url(../blocks/faculties/faculties.css);
+@import url(../blocks/faculties/__card-container/faculties__card-container.css);
+@import url(../blocks/faculties/__title/faculties__title.css);
+@import url(../blocks/faculties-card/faculties-card.css);
+@import url(../blocks/faculties-card/__courses/faculties-card__courses.css);
+@import url(../blocks/faculties-card/__img/faculties-card__img.css);
+@import url(../blocks/faculties-card/__number-container/faculties-card__number-container.css);
+@import url(../blocks/faculties-card/__number-courses/faculties-card__number-courses.css);
+@import url(../blocks/faculties-card/__title/faculties-card__title.css);
+@import url(../blocks/faculties-card/__text-container/faculties-card__text-container.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -94,3 +104,7 @@ h1 {
   --medium-bezh-card-background: #D9D9D9;
   --main-button: #B5B5B5;
 }
+
+
+
+

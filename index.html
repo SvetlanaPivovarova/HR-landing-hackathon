@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/index.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,6 +111,12 @@
         <img class="quiz__image" src="./images/portrait_placeholder.png" alt="Наставник">
       </div>
     </section>
+    <section class="faculties">
+      <h2 class="faculties__title">Наши факультеты</h2>
+      <div class="faculties__card-container">
+
+      </div>
+    </section>
     <section class="histories">
       <div class="histories__container">
         <h2 class="histories__title">Истории ребят из нашей команды</h2>
@@ -165,5 +171,16 @@
       </div>
     </section>
   </footer>
+  <template class="faculties-template">
+    <article class="faculties-card">
+      <h3 class="faculties-card__title"></h3>
+      <div class="faculties-card__text-container">
+        <p class="faculties-card__courses"></p>
+        <div class="faculties-card__number-container">
+          <p class="faculties-card__number-courses"></p>
+        </div>
+      </div>
+    </article>
+  </template>
 </body>
 </html>

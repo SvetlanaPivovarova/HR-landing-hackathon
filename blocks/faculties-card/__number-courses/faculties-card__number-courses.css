@@ -1,0 +1,8 @@
+.faculties-card__number-courses {
+  color: var(--faculties-text-color);
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin: 0;
+}
