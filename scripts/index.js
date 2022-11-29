@@ -3,7 +3,7 @@ import {facultiesCard} from './facultiesCard.js'
 
 const facultiesContainer = document.querySelector('.faculties__card-container');
 
-const createCard = (item) => {
+const createCard = item => {
   const card = new facultiesCard(item);
 
   return card.generateCard();
