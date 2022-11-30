@@ -124,7 +124,10 @@
 @import url(../blocks/open-offers/__roles/open-offers__roles.css);
 @import url(../blocks/open-offers/__role/open-offers__role.css);
 @import url(../blocks/open-offers/__role/_type/open-offers__role_type_active.css);
-
+@import url(../blocks/open-offers/__nav-faculty/open-offers__nav-faculty.css);
+@import url(../blocks/open-offers/__faculties/open-offer__faculties.css);
+@import url(../blocks/open-offers/__faculty/open-offer__faculty.css);
+@import url(../blocks/open-offers/__faculty/_type/open-offer__faculty_type_active.css);
 
 
 
