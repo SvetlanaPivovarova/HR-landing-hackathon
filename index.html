@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <script src="./scripts/index.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
+  <script src="./scripts/createOffers.js" type="module"></script>
   <script src="./scripts/faq.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -142,6 +143,7 @@
         </div>
       </div>
     </section>
+
     <!--Блок "Наши факультеты"-->
     <section class="faculties">
       <h2 class="faculties__title">Наши факультеты</h2>
@@ -155,14 +157,36 @@
       <ul class="roles__container"></ul>
     </section>
 
-    <!--Блок ""-->
+    <!--Блок "Открытые предложения"-->
+    <section class="open-offers">
+      <h2 class="open-offers__title">Открытые предложения</h2>
+      <nav class="open-offers__nav-role">
+        <ul class="open-offers__roles">
+          <li class="open-offers__role  open-offers__role_type_active">Для наставников</li>
+          <li class="open-offers__role">Для ревьюеров</li>
+        </ul>
+      </nav>
+      <nav class="open-offers__nav-faculty">
+        <ul class="open-offer__faculties">
+          <li class="open-offer__faculty open-offer__faculty_type_active">Программирование</li>
+          <li class="open-offer__faculty">Аналитика</li>
+          <li class="open-offer__faculty">Дизайн</li>
+          <li class="open-offer__faculty">Маркетинг</li>
+          <li class="open-offer__faculty">Менеджмент</li>
+        </ul>
+      </nav>
+      <div class="open-offers__blur"></div>
+      <ul class="open-offer__container"></ul>
+      <button type="button" class="open-offer__button"></button>
+    </section>
+
+    <!--Блок "Не нашли себя в открытых предложениях?"-->
     <section class="offers">
       <h2 class="offers__title">Не нашли себя в открытых предложениях?</h2>
       <p class="offers__subtitle">Отправьте нам заявку, как только появится подходящая вакансия мы обязательно с вами свяжемся!</p>
       <button class="offers__btn" type="button">Отправить</button>
       <div class="offers__rectangle"></div>
     </section>
-
 
 
     <section class="histories">
@@ -277,6 +301,13 @@
     </article>
   </template>
 
-
+  <template class="open-offer-template">
+    <li class="open-offer__item">
+      <article class="open-offer__card">
+        <h3 class="open-offer__heading"></h3>
+        <p class="open-offer__text"></p>
+      </article>
+    </li>
+  </template>
 </body>
 </html>

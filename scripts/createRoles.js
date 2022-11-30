@@ -1,4 +1,4 @@
-import { roles } from "./rolesDescription.js";
+import { roles } from "./rolesArr.js";
 import { roleCard } from "./roleCard.js";
 
 const rolesContainer = document.querySelector(".roles__container");

@@ -1,0 +1,7 @@
+.open-offer__faculties {
+  min-width: 838px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
