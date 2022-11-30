@@ -1,0 +1,7 @@
+.popup__container {
+  background-color: var(--medium-bezh-background);
+  padding: 5px 112px;
+  border-radius: 50px;
+  cursor: auto;
+  position: relative;
+}

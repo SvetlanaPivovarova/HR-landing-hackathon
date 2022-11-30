@@ -5,4 +5,5 @@
   top: 0;
   right: 31px;
   gap: 40px;
+  transform: rotate(15deg);
 }
