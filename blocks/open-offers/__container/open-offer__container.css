@@ -1,7 +1,10 @@
 .open-offer__container {
-  display: flex;
-  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 30px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   list-style: none;
-
 }

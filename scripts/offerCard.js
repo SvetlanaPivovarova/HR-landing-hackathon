@@ -17,7 +17,6 @@ class offerCard {
   }
   generateCard() {
     this._element = this._getTemplate();
-    console.log(this._vacancy);
 
     // добавить данные
         this._element.querySelector(".open-offer__heading").textContent = this._vacancy;
