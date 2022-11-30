@@ -1,0 +1,9 @@
+.quiz__button_type_blue {
+  background-color: var(--border-color-expert);
+  color: var(--white-text);
+  width: 182px;
+  height: 56px;
+  border-radius: 20px;
+  margin-bottom: 170px;
+  align-self: end;
+}

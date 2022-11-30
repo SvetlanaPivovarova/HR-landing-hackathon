@@ -1,0 +1,4 @@
+.quiz__role-container {
+  display: flex;
+  flex-direction: column;
+}

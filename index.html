@@ -61,65 +61,82 @@
         </div>
       </div>
     </section>
+
+    <!--Блок "Опрос"-->
     <section class="quiz">
-      <h2 class="quiz__title">Над чем хочу работать:</h2>
-      <p class="quiz__prompt">Выберете 4 варианта*</p>
+      <h2 class="quiz__title">Чтобы узнать подходящую роль, выберите, чем вы&nbsp;хотите заниматься</h2>
+      <p class="quiz__prompt">Не больше 4-х вариантов</p>
       <div class="quiz__container">
         <ul class="quiz__items">
           <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
-          <li class="quiz__item">Делиться опытом и мотивировать</li>
-          <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
-          <li class="quiz__item">Проверять код и проекты студентов</li>
           <li class="quiz__item">Давать корректирующую обратную связь</li>
+          <li class="quiz__item">Проверять код и проекты студентов</li>
+          <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
+          <li class="quiz__item">Делиться опытом и мотивировать</li>
           <li class="quiz__item">Простыми словами объяснять им их ошибки</li>
           <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
         </ul>
       </div>
-    </section>
-    <section class="quiz quiz_type_role quiz_type_reverse">
-      <div class="quiz__role-card quiz__role-card_type_below">
-        <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
-        <p class="quiz__card-text">Задачи ревьюера</p>
-        <ul class="quiz__card-tasks">
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Проверять проекты студентов.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Простыми словами объяснять им ошибки.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Давать корректирующую обратную связь.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Оценивать работы – зачёт / незачет.</p>
-          </li>
-        </ul>
-        <button class="quiz__button" type="button">Хочу делиться опытом</button>
-        <img class="quiz__image"  src="./images/portrait_placeholder.png" alt="Ревьюер">
+      <div class="quiz__button-container">
+        <button type="button" class="quiz__button quiz__button_type_blue">Узнать роль</button>
       </div>
-      <div class="quiz__role-card quiz__role-card_type_over">
-        <h2 class="quiz__card-title">Вам может быть интересна роль Наставника</h2>
-        <p  class="quiz__card-text">Задачи ревьюера</p>
-        <ul class="quiz__card-tasks">
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Помогать студентам ставить цели,
-              рефлексировать и делать выводы.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Отвечать на их вопросы в чате.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Проводить вебинары и давать
-              обратную связь 2 раза в месяц.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Делиться опытом и мотивировать.</p>
-          </li>
-        </ul>
-        <button class="quiz__button" type="button">Хочу делиться опытом</button>
-        <img class="quiz__image" src="./images/portrait_placeholder.png" alt="Наставник">
+
+      <!--Блок "Ответ"-->
+      <div class="quiz quiz_type_role quiz_type_reverse">
+          <div class="quiz__role-card quiz__role-card_type_below">
+            <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
+            <div class="quiz__main-container">
+              <div class="quiz__role-container">
+                <p class="quiz__card-text">Задачи ревьюера</p>
+                <ul class="quiz__card-tasks">
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Проверять проекты студентов.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Простыми словами объяснять им ошибки.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Давать корректирующую обратную связь.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Оценивать работы – зачёт / незачет.</p>
+                  </li>
+                </ul>
+                <button class="quiz__button" type="button">Смотреть вакансии</button>
+              </div>
+            </div>
+            <img class="quiz__image"  src="./images/review.svg" alt="Ревьюер">
+          </div>
+          <div class="quiz__role-card quiz__role-card_type_over">
+            <h2 class="quiz__card-title">Вам может быть интересна роль Наставника</h2>
+            <div class="quiz__main-container">
+              <div class="quiz__role-container">
+                <p  class="quiz__card-text">Задачи наставника</p>
+                <ul class="quiz__card-tasks">
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Помогать студентам ставить цели,
+                      рефлексировать и делать выводы.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Отвечать на их вопросы в чате.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Проводить вебинары и давать
+                      обратную связь 2 раза в месяц.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Делиться опытом и мотивировать.</p>
+                  </li>
+                </ul>
+                <button class="quiz__button" type="button">Хочу делиться опытом</button>
+              </div>
+              <img class="quiz__image" src="./images/mentor.svg" alt="Наставник">
+            </div>
+          </div>
       </div>
+
     </section>
+
     <section class="expert">
       <h2 class="expert__title">Как стать экспертом</h2>
       <div class="expert__container">
@@ -201,7 +218,7 @@
         <p class="history__subtitle">Они стали крутыми профессионалами сами и изменили жизни десятков людей — у вас тоже это получится!</p>
         <div class="histories__slider">
           <div class="histories__slider-item">
-            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь. 
+            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь.
             </p>
             <div class="histories__slider-person">
               <div class="histories__slider-image"></div>
@@ -209,7 +226,7 @@
             </div>
           </div>
           <div class="histories__slider-item">
-            <p class="histories__slider-subtitle">Есть небольшой опыт преподавания — пару лет назад читал курс про CPA-маркетинг на нескольких офлайн-курсах про digital. Я здесь затем, чтобы делиться знаниями, прокачивать софт скиллы. По опыту найма вижу, что общий уровнь компетенции интернет-маркетологов оставляет желать лучшего. По первым ощущениям Яндекс.Практикум реально может сделать лучший курс по интернет-маркетингу на рынке и задать планку для всех остальных.              
+            <p class="histories__slider-subtitle">Есть небольшой опыт преподавания — пару лет назад читал курс про CPA-маркетинг на нескольких офлайн-курсах про digital. Я здесь затем, чтобы делиться знаниями, прокачивать софт скиллы. По опыту найма вижу, что общий уровнь компетенции интернет-маркетологов оставляет желать лучшего. По первым ощущениям Яндекс.Практикум реально может сделать лучший курс по интернет-маркетингу на рынке и задать планку для всех остальных.
             </p>
             <div class="histories__slider-person">
               <div class="histories__slider-image"></div>
@@ -338,6 +355,6 @@
       },
     });
   </script> -->
-  
+
 </body>
 </html>

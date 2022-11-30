@@ -1,4 +1,4 @@
 .quiz__role-card_type_below {
-  background-color: #DCD9D9;
+  background-color: var(--border-color-expert);
   margin-left: -989px;
 }
