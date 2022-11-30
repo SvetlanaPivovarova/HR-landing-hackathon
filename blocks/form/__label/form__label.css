@@ -1,0 +1,6 @@
+.form__label {
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  line-height: 22px;
+  width: 180px;
+}

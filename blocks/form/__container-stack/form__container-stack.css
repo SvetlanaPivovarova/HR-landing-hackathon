@@ -1,0 +1,5 @@
+.form__container-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

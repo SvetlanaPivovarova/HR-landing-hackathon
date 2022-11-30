@@ -1,7 +1,7 @@
 .intro__title {
   font-weight: var(--font-weight-bold);
   font-size: 82px;
-  line-height: 86px;
+  line-height: 101.2%;
   margin: 0;
-  max-width: 992px;
+  max-width: 736px;
 }

@@ -1,7 +1,7 @@
 .offers__subtitle {
   font-weight: var(--font-weight-regular);
-  font-size: 20px;
-  line-height: 110%;
-  margin: 10px 0 0 0;
-  max-width: 630px;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 20px 0 0 0;
+  max-width: 700px;
 }

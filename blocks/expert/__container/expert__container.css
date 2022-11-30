@@ -1,9 +1,9 @@
 .expert__container {
   border: 13px solid var(--border-color-expert);
   border-radius: 54px;
-  max-width: 1200px;
-  height: 370px;
-  margin-top: 76px;
+  width: 1210px;
+  height: 375px;
+  margin-top: 60px;
   position: relative;
   display: flex;
 }
