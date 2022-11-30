@@ -1,0 +1,9 @@
+.open-offers__role {
+  min-height: 23px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.55);
+  padding: 12px 34px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}

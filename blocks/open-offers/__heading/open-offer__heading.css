@@ -1,0 +1,7 @@
+.open-offer__heading {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: var(--font-weight-medium);
+  padding: 0;
+  margin-bottom: 55px;
+}

@@ -4,10 +4,17 @@
   <meta charset="UTF-8">
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
+  <!-- ниже стили слайдера -->
+  <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  > -->
   <script src="./scripts/index.js" type="module"></script>
   <script src="./scripts/createFaculties.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
+  <script src="./scripts/createOffers.js" type="module"></script>
   <script src="./scripts/faq.js" type="module"></script>
+  <script src="./scripts/slider.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -149,6 +156,7 @@
         <button class="expert__btn" type="button">Смотреть вакансии</button>
       </div>
     </section>
+
     <!--Блок "Наши факультеты"-->
     <section class="faculties">
       <h2 class="faculties__title">Наши факультеты</h2>
@@ -162,7 +170,30 @@
       <ul class="roles__container"></ul>
     </section>
 
-    <!--Блок ""-->
+    <!--Блок "Открытые предложения"-->
+    <section class="open-offers">
+      <h2 class="open-offers__title">Открытые предложения</h2>
+      <nav class="open-offers__nav-role">
+        <ul class="open-offers__roles">
+          <li class="open-offers__role  open-offers__role_type_active">Для наставников</li>
+          <li class="open-offers__role">Для ревьюеров</li>
+        </ul>
+      </nav>
+      <nav class="open-offers__nav-faculty">
+        <ul class="open-offer__faculties">
+          <li class="open-offer__faculty open-offer__faculty_type_active">Программирование</li>
+          <li class="open-offer__faculty">Аналитика</li>
+          <li class="open-offer__faculty">Дизайн</li>
+          <li class="open-offer__faculty">Маркетинг</li>
+          <li class="open-offer__faculty">Менеджмент</li>
+        </ul>
+      </nav>
+      <div class="open-offers__blur"></div>
+      <ul class="open-offer__container"></ul>
+      <button type="button" class="open-offer__button"></button>
+    </section>
+
+    <!--Блок "Не нашли себя в открытых предложениях?"-->
     <section class="offers">
       <h2 class="offers__title">Не нашли себя в открытых предложениях?</h2>
       <p class="offers__subtitle">Отправьте нам заявку, как только появится подходящая вакансия мы обязательно с вами свяжемся!</p>
@@ -171,21 +202,30 @@
     </section>
 
 
-
     <section class="histories">
       <div class="histories__container">
         <h2 class="histories__title">Истории ребят из нашей команды</h2>
         <p class="history__subtitle">Они стали крутыми профессионалами сами и изменили жизни десятков людей — у вас тоже это получится!</p>
         <div class="histories__slider">
           <div class="histories__slider-item">
-            <h3 class="histories__slider-title">Анастасия Лемова, наставница на дизайн-факультете</h3>
-            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь.
+            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь. 
             </p>
-            <div class="histories__slider-image"></div>
+            <div class="histories__slider-person">
+              <div class="histories__slider-image"></div>
+              <h3 class="histories__slider-title">Анастасия Лемова, наставница на дизайн-факультете</h3>
+            </div>
+          </div>
+          <div class="histories__slider-item">
+            <p class="histories__slider-subtitle">Есть небольшой опыт преподавания — пару лет назад читал курс про CPA-маркетинг на нескольких офлайн-курсах про digital. Я здесь затем, чтобы делиться знаниями, прокачивать софт скиллы. По опыту найма вижу, что общий уровнь компетенции интернет-маркетологов оставляет желать лучшего. По первым ощущениям Яндекс.Практикум реально может сделать лучший курс по интернет-маркетингу на рынке и задать планку для всех остальных.              
+            </p>
+            <div class="histories__slider-person">
+              <div class="histories__slider-image"></div>
+              <h3 class="histories__slider-title">Кирилл Игнатьев, наставник на бэкенд-факультете (Python)</h3>
+            </div>
           </div>
           <ul class="histories__arrows">
-            <li class="histories__arrow"></li>
-            <li class="histories__arrow histories__arrow_type_right"></li>
+            <li class="histories__arrow-prev"></li>
+            <li class="histories__arrow-next"></li>
           </ul>
         </div>
       </div>
@@ -216,7 +256,7 @@
           <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus">
           Оставил отклик, но не получил обратной связи. С кем мне связаться?
         </summary>
-        <p class="faq__accordion-text">Как только появится подходящая вакансия наш HR-менджер обязательно с вами свяжется, так же вы можете связаться с нами по номеру 8-800-700-93-29 и мы более подробно ответим на все ваши вопросы.</p>
+        <p class="faq__accordion-text">Как только появится подходящая вакансия наш HR-менджер обязательно с вами свяжется, так же вы можете связаться с нами по номеру 8&#8209;800&#8209;700&#8209;93&#8209;29 и мы более подробно ответим на все ваши вопросы.</p>
       </details>
       <details class="faq__accordion-item">
         <summary class="faq__accordion-title">
@@ -284,7 +324,28 @@
     </article>
   </template>
 
-  <div class="popup">
+  <template class="open-offer-template">
+    <li class="open-offer__item">
+      <article class="open-offer__card">
+        <h3 class="open-offer__heading"></h3>
+        <p class="open-offer__text"></p>
+      </article>
+    </li>
+  </template>
+
+   <!-- пытаюсь подключить свайпер -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".histories__slider-item", {
+      direction: 'vertical',
+      loop: true,
+      navigation: {
+        nextEl: ".histories__arrow-next",
+        prevEl: ".histories__arrow-prev",
+      },
+    });
+  </script> -->
+    <div class="popup">
     <div class="popup__container">
       <div class="popup__close"></div>
       <h2 class="popup__title">Не нашли Подходящую вакансию?</h2>

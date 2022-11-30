@@ -1,6 +1,13 @@
 .histories__slider-item {
+  justify-content: space-between;
   position: relative;
   border-radius: 54px;
-  background-color: var(--medium-bezh-card-background);
-  height: 100%;
+  background-color: var(--white-background);
+  height: 68%;
+  padding: 75px 75px 72px 76px;
+  display: none;
+}
+
+.histories__slider-item:first-child {
+  display: flex;
 }

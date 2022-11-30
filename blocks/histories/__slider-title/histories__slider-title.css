@@ -1,9 +1,9 @@
 .histories__slider-title {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.19;
-  color: var(--histories-slider-text-color);
+  font-weight: var(--font-weight-medium);
+  font-size: 17px;
+  line-height: 1.06;
+  color: var(--histories-slider-title-color);
   margin: 0;
-  padding: 75px 0 0 76px;
-  width: 54%;
+  padding: 0;
+  width: 100%;
 }

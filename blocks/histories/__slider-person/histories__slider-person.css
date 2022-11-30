@@ -1,0 +1,6 @@
+.histories__slider-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24%;
+}
