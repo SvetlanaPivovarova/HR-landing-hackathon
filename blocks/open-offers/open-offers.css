@@ -1,4 +1,5 @@
 .open-offers {
+  width: 100%;
   padding: 0 71px 119px 77px;
   box-sizing: border-box;
   background-color: var(--light-grey-background);

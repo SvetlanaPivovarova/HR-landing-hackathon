@@ -3,4 +3,5 @@
   box-sizing: border-box;
   border-radius: 20px;
   min-width: 393px;
+  background-color: var(--white-background);
 }
