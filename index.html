@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
+  <!-- ниже стили слайдера -->
+  <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  > -->
   <script src="./scripts/index.js" type="module"></script>
   <script src="./scripts/faq.js" type="module"></script>
+  <script src="./scripts/slider.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,19 +144,11 @@
             </div>
           </div>
           <div class="histories__slider-item">
-            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь. 
+            <p class="histories__slider-subtitle">Есть небольшой опыт преподавания — пару лет назад читал курс про CPA-маркетинг на нескольких офлайн-курсах про digital. Я здесь затем, чтобы делиться знаниями, прокачивать софт скиллы. По опыту найма вижу, что общий уровнь компетенции интернет-маркетологов оставляет желать лучшего. По первым ощущениям Яндекс.Практикум реально может сделать лучший курс по интернет-маркетингу на рынке и задать планку для всех остальных.              
             </p>
             <div class="histories__slider-person">
               <div class="histories__slider-image"></div>
-              <h3 class="histories__slider-title">Анастасия Лемова, наставница на дизайн-факультете</h3>
-            </div>
-          </div>
-          <div class="histories__slider-item">
-            <p class="histories__slider-subtitle">Для меня важно, чтобы работа имела смысл и приносила удовольствие. Сейчас я вижу свою реализацию не в создании, а в передаче опыта. Меня очень раздражали многие методы преподавания в университете и всегда казалось, что лучше по-другому, в работе я также много училась, занималась на курсах и поняла как именно можно делать лучше. Сейчас Яндекс.Практикум это возможность применить это в жизнь. 
-            </p>
-            <div class="histories__slider-person">
-              <div class="histories__slider-image"></div>
-              <h3 class="histories__slider-title">Анастасия Лемова, наставница на дизайн-факультете</h3>
+              <h3 class="histories__slider-title">Кирилл Игнатьев, наставник на бэкенд-факультете (Python)</h3>
             </div>
           </div>
           <ul class="histories__arrows">
@@ -244,6 +242,19 @@
       </div>
     </article>
   </template>
+
+  <!-- пытаюсь подключить свайпер -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".histories__slider-item", {
+      direction: 'vertical',
+      loop: true,
+      navigation: {
+        nextEl: ".histories__arrow-next",
+        prevEl: ".histories__arrow-prev",
+      },
+    });
+  </script> -->
 
 </body>
 </html>
