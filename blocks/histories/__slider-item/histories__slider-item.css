@@ -1,6 +1,7 @@
 .histories__slider-item {
   position: relative;
   border-radius: 54px;
-  background-color: var(--medium-bezh-card-background);
-  height: 100%;
+  background-color: var(--white-background);
+  height: 68%;
+  padding: 75px 75px 72px 76px;
 }

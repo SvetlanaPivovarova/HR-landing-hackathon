@@ -4,7 +4,8 @@
   width: 50px;
   height: 68px;
   position: absolute;
-  list-style: none;
+  cursor: pointer;
+  border: none;
 }
 
 .histories__arrow:first-child {
