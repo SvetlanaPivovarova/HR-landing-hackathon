@@ -1,20 +1,11 @@
-.histories__arrow {
+.histories__arrow-prev {
   background-image: url(../../../images/histories-arrow.svg);
   border-radius: 20px;
   width: 50px;
   height: 68px;
   position: absolute;
   cursor: pointer;
-}
-
-.histories__arrow:first-child {
   top: 50%;
   left: -30px;
   transform: translate(-100%, -50%);
-}
-
-.histories__arrow:last-child {
-  top: 50%;
-  right: -30px;
-  transform: rotate(180deg) translate(-100%, 50%);
 }
