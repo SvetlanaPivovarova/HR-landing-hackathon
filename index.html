@@ -122,10 +122,8 @@
     <!--Блок "В роли наставника и ревьюера вы будете"-->
 
     <section class="roles">
-      <h2>В&nbsp;роли наставника и&nbsp;ревьюера вы&nbsp;будете:</h2>
-      <ul class="roles__container">
-
-      </ul>
+      <h2 class="roles__title">В&nbsp;роли наставника и&nbsp;ревьюера вы&nbsp;будете:</h2>
+      <ul class="roles__container"></ul>
     </section>
 
     <section class="histories">
@@ -184,23 +182,25 @@
   </footer>
   <template class="role-template">
     <li class="roles__item">
-      <article class="role__card">
-        <img class="role__image" src="" alt="Иллюстрация роли" />
-        <h3 class="role__heading"></h3>
-        <p class="role__text"></p>
+      <article class="roles__card">
+        <img class="roles__image" src="" alt="Иллюстрация роли" />
+        <h3 class="roles__heading"></h3>
+        <p class="roles__text"></p>
       </article>
     </li>
   </template>
   <template class="faculties-template">
-    <article class="faculties-card">
-      <h3 class="faculties-card__title"></h3>
-      <div class="faculties-card__text-container">
-        <p class="faculties-card__courses"></p>
-        <div class="faculties-card__number-container">
-          <p class="faculties-card__number-courses"></p>
+    <li class="roles__item">
+      <article class="faculties-card">
+        <h3 class="faculties-card__title"></h3>
+        <div class="faculties-card__text-container">
+          <p class="faculties-card__courses"></p>
+          <div class="faculties-card__number-container">
+            <p class="faculties-card__number-courses"></p>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </li>
   </template>
 
 </body>

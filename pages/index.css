@@ -86,6 +86,7 @@
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
 
 @import url(../blocks/roles/roles.css);
+@import url(../blocks/roles/__title/roles__title.css);
 @import url(../blocks/roles/__container/roles__container.css);
 @import url(../blocks/roles/__item/roles__item.css);
 @import url(../blocks/roles/__card/roles__card.css);

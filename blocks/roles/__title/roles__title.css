@@ -1,0 +1,6 @@
+.roles__title {
+  font-size: 62px;
+  line-height: 1.2;
+  font-weight: var(--font-weight-bold);
+  max-width: 365px;
+}
