@@ -1,0 +1,7 @@
+.roles__card {
+  max-width: 416px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}

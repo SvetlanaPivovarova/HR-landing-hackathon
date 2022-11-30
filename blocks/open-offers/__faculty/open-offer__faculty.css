@@ -1,0 +1,8 @@
+.open-offer__faculty {
+    display: block;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 0;
+  margin-right: 60px;
+  color: rgba(0, 0, 0, 0.39);
+}

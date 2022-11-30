@@ -10,6 +10,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   > -->
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/createRoles.js" type="module"></script>
+  <script src="./scripts/createOffers.js" type="module"></script>
   <script src="./scripts/faq.js" type="module"></script>
   <script src="./scripts/slider.js" type="module"></script>
   <title>Работа в Яндекс Практикум</title>
@@ -118,18 +120,81 @@
         <img class="quiz__image" src="./images/portrait_placeholder.png" alt="Наставник">
       </div>
     </section>
+    <section class="expert">
+      <h2 class="expert__title">Как стать экспертом</h2>
+      <div class="expert__container">
+        <div class="expert__rectangle"></div>
+        <ul class="expert__lists">
+          <li class="expert__list">
+            <div class="expert__number-container">
+              <p class="expert__number">1</p>
+            </div>
+            <p class="expert__desc">Выберете роль и заполните заявку</p>
+          </li>
+          <li class="expert__list">
+            <div class="expert__number-container">
+              <p class="expert__number">2</p>
+            </div>
+            <p class="expert__desc">Пройдите отбор и бесплатное обучение</p>
+          </li>
+          <li class="expert__list">
+            <div class="expert__number-container">
+              <p class="expert__number">3</p>
+            </div>
+            <p class="expert__desc expert__desc_size_b">Начните делиться знаниями со студентами Яндекс Практикума</p>
+          </li>
+        </ul>
+        <div class="expert__btn-container">
+          <button class="expert__btn" type="button">Смотреть вакансии</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Блок "Наши факультеты"-->
     <section class="faculties">
       <h2 class="faculties__title">Наши факультеты</h2>
       <div class="faculties__card-container">
-
       </div>
     </section>
+
+    <!--Блок "В роли наставника и ревьюера вы будете"-->
+    <section class="roles">
+      <h2 class="roles__title">В&nbsp;роли наставника и&nbsp;ревьюера вы&nbsp;будете:</h2>
+      <ul class="roles__container"></ul>
+    </section>
+
+    <!--Блок "Открытые предложения"-->
+    <section class="open-offers">
+      <h2 class="open-offers__title">Открытые предложения</h2>
+      <nav class="open-offers__nav-role">
+        <ul class="open-offers__roles">
+          <li class="open-offers__role  open-offers__role_type_active">Для наставников</li>
+          <li class="open-offers__role">Для ревьюеров</li>
+        </ul>
+      </nav>
+      <nav class="open-offers__nav-faculty">
+        <ul class="open-offer__faculties">
+          <li class="open-offer__faculty open-offer__faculty_type_active">Программирование</li>
+          <li class="open-offer__faculty">Аналитика</li>
+          <li class="open-offer__faculty">Дизайн</li>
+          <li class="open-offer__faculty">Маркетинг</li>
+          <li class="open-offer__faculty">Менеджмент</li>
+        </ul>
+      </nav>
+      <div class="open-offers__blur"></div>
+      <ul class="open-offer__container"></ul>
+      <button type="button" class="open-offer__button"></button>
+    </section>
+
+    <!--Блок "Не нашли себя в открытых предложениях?"-->
     <section class="offers">
       <h2 class="offers__title">Не нашли себя в открытых предложениях?</h2>
       <p class="offers__subtitle">Отправьте нам заявку, как только появится подходящая вакансия мы обязательно с вами свяжемся!</p>
       <button class="offers__btn" type="button">Отправить</button>
       <div class="offers__rectangle"></div>
     </section>
+
+
     <section class="histories">
       <div class="histories__container">
         <h2 class="histories__title">Истории ребят из нашей команды</h2>
@@ -162,7 +227,7 @@
       <h2 class="faq__title">Частые вопросы (FAQ)</h2>
       <details class="faq__accordion-item">
         <summary class="faq__accordion-title">
-          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus">
           Как устроиться на работу?
         </summary>
         <ul class="faq__accordion-list">
@@ -175,20 +240,20 @@
       <details class="faq__accordion-item">
         <summary class="faq__accordion-title">
           Я не нашёл подходящую вакансию, но хочу у вас работать. Что делать?
-          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus">
         </summary>
         <p class="faq__accordion-text">Вы можете отправить нам заявку здесь, как только появится подходящая вакансия, мы обязательно с вами свяжемся!</p>
       </details>
       <details class="faq__accordion-item">
         <summary class="faq__accordion-title">
-          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus">
           Оставил отклик, но не получил обратной связи. С кем мне связаться?
         </summary>
         <p class="faq__accordion-text">Как только появится подходящая вакансия наш HR-менджер обязательно с вами свяжется, так же вы можете связаться с нами по номеру 8&#8209;800&#8209;700&#8209;93&#8209;29 и мы более подробно ответим на все ваши вопросы.</p>
       </details>
       <details class="faq__accordion-item">
         <summary class="faq__accordion-title">
-          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus"> 
+          <img src="./images/faq-plus-icon.svg" alt="Раскрыть" class="faq__accordion-plus">
           Какой у вас график?
         </summary>
         <p class="faq__accordion-text">В нашей команде свободный график 2-3 часа в день. Вы можете самостоятельно подстраивать рабочие процессы под себя.</p>
@@ -230,6 +295,15 @@
       </div>
     </section>
   </footer>
+  <template class="role-template">
+    <li class="roles__item">
+      <article class="roles__card">
+        <img class="roles__image" src="" alt="Иллюстрация роли" />
+        <h3 class="roles__heading"></h3>
+        <p class="roles__text"></p>
+      </article>
+    </li>
+  </template>
 
   <template class="faculties-template">
     <article class="faculties-card">
@@ -243,7 +317,16 @@
     </article>
   </template>
 
-  <!-- пытаюсь подключить свайпер -->
+  <template class="open-offer-template">
+    <li class="open-offer__item">
+      <article class="open-offer__card">
+        <h3 class="open-offer__heading"></h3>
+        <p class="open-offer__text"></p>
+      </article>
+    </li>
+  </template>
+
+   <!-- пытаюсь подключить свайпер -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".histories__slider-item", {
@@ -255,6 +338,6 @@
       },
     });
   </script> -->
-
+  
 </body>
 </html>

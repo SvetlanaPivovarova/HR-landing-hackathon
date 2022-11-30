@@ -1,0 +1,8 @@
+.open-offers__roles {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
