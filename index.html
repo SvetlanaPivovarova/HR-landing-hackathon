@@ -5,10 +5,10 @@
   <link rel="icon" href="">
   <link rel="stylesheet" href="./pages/index.css">
   <!-- ниже стили слайдера -->
-  <!-- <link
+  <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-  > -->
+  >
   <script src="./scripts/index.js" type="module"></script>
   <script src="./scripts/createFaculties.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
@@ -333,19 +333,7 @@
     </li>
   </template>
 
-   <!-- пытаюсь подключить свайпер -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".histories__slider-item", {
-      direction: 'vertical',
-      loop: true,
-      navigation: {
-        nextEl: ".histories__arrow-next",
-        prevEl: ".histories__arrow-prev",
-      },
-    });
-  </script> -->
-    <div class="popup">
+  <div class="popup">
     <div class="popup__container">
       <div class="popup__close"></div>
       <h2 class="popup__title">Не нашли Подходящую вакансию?</h2>
@@ -388,5 +376,19 @@
       </form>
     </div>
   </div>
+
+     <!-- пытаюсь подключить свайпер -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".histories__slider-item", {
+      direction: 'horizontal',
+      loop: true,
+      navigation: {
+        nextEl: ".histories__arrow-next",
+        prevEl: ".histories__arrow-prev",
+      },
+    });
+  </script>
+
 </body>
 </html>

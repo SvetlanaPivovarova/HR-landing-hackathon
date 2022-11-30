@@ -5,9 +5,10 @@
   background-color: var(--white-background);
   height: 68%;
   padding: 75px 75px 72px 76px;
-  display: none;
-}
-
-.histories__slider-item:first-child {
+  /* display: none; */
   display: flex;
 }
+
+/* .histories__slider-item:first-child {
+  display: flex;
+} */
