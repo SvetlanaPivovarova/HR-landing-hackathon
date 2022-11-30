@@ -147,7 +147,6 @@
 @import url(../blocks/form/__checkbox/form__checkbox.css);
 @import url(../blocks/form/__container-stack/form__container-stack.css);
 @import url(../blocks/form/__container/form__container.css);
-@import url(../blocks/form/__container/_margins/form__container_type_margins.css);
 @import url(../blocks/form/__field/form__field.css);
 @import url(../blocks/form/__field/_big/form__field_type_big.css);
 @import url(../blocks/form/__field/_padding/form__field_type_padding.css);
