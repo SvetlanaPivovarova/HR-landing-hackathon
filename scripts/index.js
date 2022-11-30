@@ -1,18 +1,25 @@
-import {faculties} from './facultiesArr.js';
-import {facultiesCard} from './facultiesCard.js'
+const offerBtn = document.querySelector('.offers__btn');
+const popup = document.querySelector('.popup');
+const popupCloseBtn = popup.querySelector('.popup__close');
 
-const facultiesContainer = document.querySelector('.faculties__card-container');
+offerBtn.addEventListener('click', () => {
+  popup.classList.add('popup_active');
+});
 
-const createCard = item => {
-  const card = new facultiesCard(item);
-
-  return card.generateCard();
+const closePopup = element => {
+  element.classList.remove('popup_active');
 }
 
-const renderCard = element => {
-  facultiesContainer.append(element);
-}
-
-faculties.forEach(item => {
-  renderCard(createCard(item));
+popup.addEventListener('click', evt => {
+  if(evt.target === popup) {
+    closePopup(popup);
+  }
+});
+popupCloseBtn.addEventListener('click', () => {
+  closePopup(popup);
+});
+popup.addEventListener('keydown', evt => {
+  if(evt.key === 'Escape') {
+    closePopup(popup);
+  }
 });
