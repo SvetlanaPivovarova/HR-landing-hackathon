@@ -129,6 +129,9 @@
 @import url(../blocks/open-offers/__faculty/open-offer__faculty.css);
 @import url(../blocks/open-offers/__faculty/_type/open-offer__faculty_type_active.css);
 @import url(../blocks/open-offers/__container/open-offer__container.css);
-
+@import url(../blocks/open-offers/__item/open-offer__item.css);
+@import url(../blocks/open-offers/__card/open-offer__card.css);
+@import url(../blocks/open-offers/__heading/open-offer__heading.css);
+@import url(../blocks/open-offers/__text/open-offer__text.css);
 
 
