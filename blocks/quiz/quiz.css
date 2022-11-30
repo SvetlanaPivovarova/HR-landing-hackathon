@@ -1,7 +1,7 @@
 .quiz {
     padding: 140px 100px 0;
     box-sizing: border-box;
-    background-color: var(--light-grey-background);
+    background-color: var(--medium-bezh-background);
     line-height: 1.2;
     position: relative;
 }
