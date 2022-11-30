@@ -1,4 +1,6 @@
 .histories__slider-item {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   border-radius: 54px;
   background-color: var(--white-background);
