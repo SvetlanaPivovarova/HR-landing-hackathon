@@ -1,4 +1,5 @@
 .roles__container {
   list-style: none;
   display: flex;
+  position: relative;
 }
