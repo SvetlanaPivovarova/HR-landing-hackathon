@@ -2,7 +2,7 @@ class roleCard {
   constructor(data) {
     this._image = data.image;
     this._heading = data._heading;
-    this._text = data.text;
+    this._text = data.description;
   }
 
   _getTemplate() {
@@ -24,19 +24,6 @@ class roleCard {
 
     // вернуть элемент наружу
     return this._element;
-
-
-    this._picture = this._element.querySelector('.role__image');
-    this._likesAmount = this._element.querySelector('.card__like-amount');
-    this._setEventListeners();
-
-    // добавить данные
-    this._element.querySelector('.role__heading').textContent = this._heading;
-    this._element.querySelector('.role__text'').textContent = this._text;
-    this._picture.src = this._image;
-    this._picture.alt = this._name;
-
-
   }
 }
 
