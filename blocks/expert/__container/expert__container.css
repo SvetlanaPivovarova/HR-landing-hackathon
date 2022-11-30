@@ -6,4 +6,5 @@
   margin-top: 60px;
   position: relative;
   display: flex;
+  background-color: var(--white-background);
 }
