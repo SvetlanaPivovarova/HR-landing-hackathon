@@ -10,6 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   > -->
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/createFaculties.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
   <script src="./scripts/createOffers.js" type="module"></script>
   <script src="./scripts/faq.js" type="module"></script>
@@ -39,25 +40,33 @@
   </header>
   <main class="content">
     <section class="intro">
-      <div class="intro__text-container">
-        <h1 class="intro__title">Станьте наставником или ревьюером</h1>
-        <p class="intro__subtitle">Делись своим опытом в программировании, анализе данных, менеджменте, маркетинге или дизайне и получай дополнительный доход.</p>
-        <div class="intro__blur"></div>
-        <button class="intro__button">Хочу делиться опытом</button>
-      </div>
+      <h1 class="intro__title">Станьте наставником<br> или ревьюером</h1>
+      <p class="intro__subtitle">Делись своим опытом<br> в программировании, анализе данных, менеджменте, маркетинге или дизайне и получай дополнительный доход.</p>
+      <button class="intro__button">Хочу делиться опытом</button>
       <div class="intro__img-container">
         <div class="intro__img-block intro__img-block_type_left">
           <div class="intro__img intro__img_type_img1"></div>
           <div class="intro__img intro__img_type_img2"></div>
           <div class="intro__img intro__img_type_img3"></div>
           <div class="intro__img intro__img_type_img4"></div>
-        </div>
-        <div class="intro__img-block intro__img-block_type_right">
           <div class="intro__img intro__img_type_img5"></div>
           <div class="intro__img intro__img_type_img6"></div>
           <div class="intro__img intro__img_type_img7"></div>
           <div class="intro__img intro__img_type_img8"></div>
           <div class="intro__img intro__img_type_img9"></div>
+          <div class="intro__img intro__img_type_img10"></div>
+        </div>
+        <div class="intro__img-block intro__img-block_type_right">
+          <div class="intro__img intro__img_type_img1"></div>
+          <div class="intro__img intro__img_type_img2"></div>
+          <div class="intro__img intro__img_type_img3"></div>
+          <div class="intro__img intro__img_type_img4"></div>
+          <div class="intro__img intro__img_type_img5"></div>
+          <div class="intro__img intro__img_type_img6"></div>
+          <div class="intro__img intro__img_type_img7"></div>
+          <div class="intro__img intro__img_type_img8"></div>
+          <div class="intro__img intro__img_type_img9"></div>
+          <div class="intro__img intro__img_type_img10"></div>
         </div>
       </div>
     </section>
@@ -146,24 +155,22 @@
             <div class="expert__number-container">
               <p class="expert__number">1</p>
             </div>
-            <p class="expert__desc">Выберете роль и заполните заявку</p>
+            <p class="expert__desc">Выберите роль и заполните заявку</p>
           </li>
           <li class="expert__list">
             <div class="expert__number-container">
               <p class="expert__number">2</p>
             </div>
-            <p class="expert__desc">Пройдите отбор и бесплатное обучение</p>
+            <p class="expert__desc expert__desc_size_m">Пройдите отбор и бесплатное обучение</p>
           </li>
           <li class="expert__list">
             <div class="expert__number-container">
               <p class="expert__number">3</p>
             </div>
-            <p class="expert__desc expert__desc_size_b">Начните делиться знаниями со студентами Яндекс Практикума</p>
+            <p class="expert__desc expert__desc_size_b">Начните<br> делиться знаниями со студентами Яндекс Практикума</p>
           </li>
         </ul>
-        <div class="expert__btn-container">
-          <button class="expert__btn" type="button">Смотреть вакансии</button>
-        </div>
+        <button class="expert__btn" type="button">Смотреть вакансии</button>
       </div>
     </section>
 
@@ -355,6 +362,49 @@
       },
     });
   </script> -->
+    <div class="popup">
+    <div class="popup__container">
+      <div class="popup__close"></div>
+      <h2 class="popup__title">Не нашли Подходящую вакансию?</h2>
+      <form class="form">
+        <div class="form__container">
+          <label for="name" class="form__label">ФИО</label>
+          <input type="text" id="name" class="form__field form__field_type_big" required>
+        </div>
+        <div class="form__container">
+          <label for="email" class="form__label">Почта</label>
+          <input type="email" id="email" class="form__field form__field_type_big" required>
+        </div>
+        <div class="form__container">
+          <label for="contacts" class="form__label">Телефон или Telegram</label>
+          <input type="text" id="contacts" class="form__field form__field_type_big" required>
+        </div>
+        <div class="form__container">
+          <label for="role" class="form__label">Какая роль вам ближе?</label>
+          <input type="text" id="role" class="form__field" required>
+        </div>
+        <div class="form__container">
+          <label for="direction" class="form__label">Выберите направление (факультет)</label>
+          <input type="text" id="direction" class="form__field" required>
+        </div>
+        <div class="form__container-stack">
+          <label for="stack" class="form__label form__label_size_m">Перечислите набор технологий, которыми вы владеете и уровень владения каждой</label>
+          <textarea id="stack" class="form__field form__field_type_size form__field_position_start form__field_type_resize form__field_type_padding" required></textarea>
+        </div>
+        <div class="form__container">
+          <label for="link" class="form__label">Ссылка на резюме (пожалуйста, проверьте, что вы открыли доступ к документу)</label>
+          <input type="url" id="link" class="form__field form__field_type_big" required>
+        </div>
+        <div class="form__container form__container_type_margins">
+          <input type="checkbox" id="approval" class="form__checkbox" required>
+          <label for="approval" class="form__label form__label_size_b">Я даю согласие АНО ДПО “ШАД” и ООО “ЯНДЕКС на обработку указаных данных для целей рассмотрения анкеты и обратной связи по ней</label>
+        </div>
+        <div class="form__submit-container">
+          <button type="submit" class="form__submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
 </body>
 </html>

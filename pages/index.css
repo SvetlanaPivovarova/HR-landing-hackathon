@@ -11,14 +11,12 @@
 @import url(../blocks/header/__list-link/header__list-link.css);
 @import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__blur/intro__blur.css);
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__img-block/intro__img-block.css);
 @import url(../blocks/intro/__img-block/_left/intro__img-block_type_left.css);
 @import url(../blocks/intro/__img-block/_right/intro__img-block_type_right.css);
 @import url(../blocks/intro/__img-container/intro__img-container.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__text-container/intro__text-container.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__img/intro__img.css);
 @import url(../blocks/intro/__img/_img1/intro__img_type_img1.css);
@@ -30,6 +28,7 @@
 @import url(../blocks/intro/__img/_img7/intro__img_type_img7.css);
 @import url(../blocks/intro/__img/_img8/intro__img_type_img8.css);
 @import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
+@import url(../blocks/intro/__img/_img10/intro__img_type_img10.css);
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__title/quiz__title.css);
 @import url(../blocks/quiz/__prompt/quiz__prompt.css);
@@ -104,17 +103,16 @@
 @import url(../blocks/offers/__title/offers__title.css);
 @import url(../blocks/offers/__subtitle/offers__subtitle.css);
 @import url(../blocks/expert/expert.css);
-@import url(../blocks/expert/__btn-container/expert__btn-container.css);
 @import url(../blocks/expert/__btn/expert__btn.css);
 @import url(../blocks/expert/__container/expert__container.css);
 @import url(../blocks/expert/__desc/expert__desc.css);
 @import url(../blocks/expert/__desc/_b/expert__desc_size_b.css);
+@import url(../blocks/expert/__desc/_m/expert__desc_size_m.css);
 @import url(../blocks/expert/__lists/expert__lists.css);
 @import url(../blocks/expert/__number-container/expert__number-container.css);
 @import url(../blocks/expert/__number/expert__number.css);
 @import url(../blocks/expert/__rectangle/expert__rectangle.css);
 @import url(../blocks/expert/__title/expert__title.css);
-
 @import url(../blocks/roles/roles.css);
 @import url(../blocks/roles/__title/roles__title.css);
 @import url(../blocks/roles/__container/roles__container.css);
@@ -123,7 +121,7 @@
 @import url(../blocks/roles/__image/roles__image.css);
 @import url(../blocks/roles/__heading/roles__heading.css);
 @import url(../blocks/roles/__text/roles__text.css);
-
+@import url(../blocks/popup/popup.css);
 @import url(../blocks/open-offers/open-offers.css);
 @import url(../blocks/open-offers/__title/open-offers__title.css);
 @import url(../blocks/open-offers/__nav-role/open-offers__nav-role.css);
@@ -141,5 +139,25 @@
 @import url(../blocks/open-offers/__heading/open-offer__heading.css);
 @import url(../blocks/open-offers/__text/open-offer__text.css);
 @import url(../blocks/open-offers/__button/open-offer__button.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__container-stack/form__container-stack.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__container/_margins/form__container_type_margins.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__field/_big/form__field_type_big.css);
+@import url(../blocks/form/__field/_padding/form__field_type_padding.css);
+@import url(../blocks/form/__field/_resize/form__field_type_resize.css);
+@import url(../blocks/form/__field/_size/form__field_type_size.css);
+@import url(../blocks/form/__field/_start/form__field_position_start.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__label/_b/form__label_size_b.css);
+@import url(../blocks/form/__label/_m/form__label_size_m.css);
+@import url(../blocks/form/__submit-container/form__submit-container.css);
+@import url(../blocks/form/__submit/form__submit.css);
 
 

@@ -1,0 +1,10 @@
+.form__submit {
+  font-weight: var(--font-weight-regular);
+  font-size: 20px;
+  line-height: 24px;
+  background-color: var(--yellow-button);
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: max-content;
+}
