@@ -1,0 +1,11 @@
+.header__btn {
+  background-color: transparent;
+  padding: 5px 26px;
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 130%;
+  border: 2px solid var(--main-title-color);
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 3px;
+}

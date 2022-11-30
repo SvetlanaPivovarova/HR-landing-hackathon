@@ -1,0 +1,6 @@
+.footer__text_type_paragraph {
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  line-height: 1.28;
+  margin-top: 40px;
+}

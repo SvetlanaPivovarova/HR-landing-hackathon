@@ -1,0 +1,7 @@
+.histories__slider-image {
+  background-image: url(../../../images/histories-1.svg);
+  border-radius: 52px;
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+}

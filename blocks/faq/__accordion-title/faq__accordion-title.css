@@ -1,0 +1,9 @@
+.faq__accordion-title {
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 1.15;
+  padding: 20px 0 21px;
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}

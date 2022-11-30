@@ -1,0 +1,10 @@
+.quiz__card-task {
+  background-image: url("../../../images/done-icon.svg");
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: transparent;
+  font-size: 25px;
+  margin: 0 0 21px;
+  min-height: 35px;
+}

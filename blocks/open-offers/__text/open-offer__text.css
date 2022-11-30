@@ -1,0 +1,6 @@
+.open-offer__text {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: var(--font-weight-medium);
+  color: rgba(0, 0, 0, 0.39);
+}

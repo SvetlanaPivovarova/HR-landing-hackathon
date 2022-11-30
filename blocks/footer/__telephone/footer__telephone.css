@@ -1,0 +1,7 @@
+.footer__telephone {
+  font-weight: var(--font-weight-medium);
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-title-color);
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.faculties-card {
+  width: 400px;
+  height: 217px;
+  background-color: var(--white-background);
+  border-radius: 30px;
+  padding: 20px 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  transition: box-shadow .2s linear;
+}
+.faculties-card:hover {
+  box-shadow: 0 0 17px var(--bg-hover);
+}

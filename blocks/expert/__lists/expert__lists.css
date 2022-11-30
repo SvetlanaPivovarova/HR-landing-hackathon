@@ -1,0 +1,9 @@
+.expert__lists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin: 70px 0 0 95px;
+  gap: 90px;
+  z-index: 1;
+}
