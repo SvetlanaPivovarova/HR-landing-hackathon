@@ -1,5 +1,7 @@
 .histories {
-  margin: 140px auto 0;
-  background-color: var(--white-background);
+  margin: 0 auto;
+  /* padding-top: 150px; */
+  padding: 150px 0 173px;
+  background-color: var(--medium-bezh-background);
   min-height: 750px;
   }

@@ -1,0 +1,7 @@
+.faq {
+  background-color: var(--white-background);
+  min-height: 438px;
+  max-height: 963px;
+  margin: 34px auto 79px;
+  padding: 0 100px 0;
+}

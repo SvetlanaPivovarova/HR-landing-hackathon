@@ -3,9 +3,9 @@
   font-size: 24px;
   line-height: 130%;
   padding: 16px 40px;
-  background-color: var(--yellow-intro-button);
+  background-color: var(--yellow-button);
   border-radius: 30px;
-  margin-top: 80px;
+  margin-top: 45px;
   display: inline-block;
   text-decoration: none;
   color: var(--main-title-color);

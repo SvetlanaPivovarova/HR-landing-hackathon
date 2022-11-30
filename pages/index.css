@@ -69,6 +69,14 @@
 @import url(../blocks/faculties-card/__number-courses/faculties-card__number-courses.css);
 @import url(../blocks/faculties-card/__title/faculties-card__title.css);
 @import url(../blocks/faculties-card/__text-container/faculties-card__text-container.css);
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__accordion-item/faq__accordion-item.css);
+@import url(../blocks/faq/__accordion-title/faq__accordion-title.css);
+@import url(../blocks/faq/__accordion-plus/faq__accordion-plus.css);
+@import url(../blocks/faq/__accordion-list/faq__accordion-list.css);
+@import url(../blocks/faq/__accordion-text/faq__accordion-text.css);
+@import url(../blocks/faq/__button/faq__button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -84,6 +92,22 @@
 @import url(../blocks/footer/__wrapper-links/_content/footer__wrapper-links_content_info.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
+@import url(../blocks/offers/offers.css);
+@import url(../blocks/offers/__btn/offers__btn.css);
+@import url(../blocks/offers/__rectangle/offers__rectangle.css);
+@import url(../blocks/offers/__title/offers__title.css);
+@import url(../blocks/offers/__subtitle/offers__subtitle.css);
+@import url(../blocks/expert/expert.css);
+@import url(../blocks/expert/__btn-container/expert__btn-container.css);
+@import url(../blocks/expert/__btn/expert__btn.css);
+@import url(../blocks/expert/__container/expert__container.css);
+@import url(../blocks/expert/__desc/expert__desc.css);
+@import url(../blocks/expert/__desc/_b/expert__desc_size_b.css);
+@import url(../blocks/expert/__lists/expert__lists.css);
+@import url(../blocks/expert/__number-container/expert__number-container.css);
+@import url(../blocks/expert/__number/expert__number.css);
+@import url(../blocks/expert/__rectangle/expert__rectangle.css);
+@import url(../blocks/expert/__title/expert__title.css);
 
 @import url(../blocks/roles/roles.css);
 @import url(../blocks/roles/__title/roles__title.css);
