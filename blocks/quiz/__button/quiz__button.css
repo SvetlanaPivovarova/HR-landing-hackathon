@@ -2,7 +2,7 @@
   width: 338px;
   min-height: 61px;
   border-radius: 30px;
-  background-color: var(--main-button);
-  margin-bottom: 150px;
+  background-color: var(--yellow-intro-button);
+  margin: 140px 0 150px;
   border: none;
 }

@@ -1,0 +1,4 @@
+.quiz__button-container {
+  display: flex;
+  justify-content: end;
+}

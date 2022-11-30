@@ -32,11 +32,16 @@
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__title/quiz__title.css);
 @import url(../blocks/quiz/__prompt/quiz__prompt.css);
+@import url(../blocks/quiz/__main-container/quiz__main-container.css);
 @import url(../blocks/quiz/__container/quiz__container.css);
 @import url(../blocks/quiz/__items/quiz__items.css);
 @import url(../blocks/quiz/__item/quiz__item.css);
+@import url(../blocks/quiz/__button-container/quiz__button-container.css);
+@import url(../blocks/quiz/__button/quiz__button.css);
+@import url(../blocks/quiz/__button/_type/quiz__button_type_blue.css);
 @import url(../blocks/quiz/_type/quiz_type_role.css);
 @import url(../blocks/quiz/_type/quiz_type_reverse.css);
+@import url(../blocks/quiz/__role-container/quiz__role-container.css);
 @import url(../blocks/quiz/__role-card/quiz__role-card.css);
 @import url(../blocks/quiz/__card-title/quiz__card-title.css);
 @import url(../blocks/quiz/__card-text/quiz__card-text.css);
@@ -46,7 +51,6 @@
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_below.css);
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_over.css);
 @import url(../blocks/quiz/__image/quiz__image.css);
-@import url(../blocks/quiz/__button/quiz__button.css);
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/histories/__container/histories__container.css);
 @import url(../blocks/histories/__title/histories__title.css);
