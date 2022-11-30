@@ -118,6 +118,13 @@
 @import url(../blocks/roles/__heading/roles__heading.css);
 @import url(../blocks/roles/__text/roles__text.css);
 
+@import url(../blocks/open-offers/open-offers.css);
+@import url(../blocks/open-offers/__title/open-offers__title.css);
+@import url(../blocks/open-offers/__nav-role/open-offers__nav-role.css);
+@import url(../blocks/open-offers/__roles/open-offers__roles.css);
+@import url(../blocks/open-offers/__role/open-offers__role.css);
+@import url(../blocks/open-offers/__role/_type/open-offers__role_type_active.css);
+
 
 
 
