@@ -109,16 +109,15 @@
 @import url(../blocks/expert/__rectangle/expert__rectangle.css);
 @import url(../blocks/expert/__title/expert__title.css);
 
+@import url(../blocks/roles/roles.css);
+@import url(../blocks/roles/__title/roles__title.css);
+@import url(../blocks/roles/__container/roles__container.css);
+@import url(../blocks/roles/__item/roles__item.css);
+@import url(../blocks/roles/__card/roles__card.css);
+@import url(../blocks/roles/__image/roles__image.css);
+@import url(../blocks/roles/__heading/roles__heading.css);
+@import url(../blocks/roles/__text/roles__text.css);
 
-:root {
-  --main-title-color: #000000;
-  --white-background: #ffffff;
-  --very-light-grey-background: #EFEEEE;
-  --light-grey-background: rgba(217, 217, 217, 0.6);
-  --medium-grey-background: #C2C2C2;
-  --light-bezh-card-background: #F0EEEE;
-  --medium-bezh-card-background: #D9D9D9;
-  --main-button: #B5B5B5;
-}
+
 
 
