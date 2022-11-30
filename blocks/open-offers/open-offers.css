@@ -5,4 +5,5 @@
   background-color: var(--light-grey-background);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
