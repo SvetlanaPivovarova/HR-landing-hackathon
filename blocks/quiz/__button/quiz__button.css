@@ -5,4 +5,12 @@
   background-color: var(--yellow-intro-button);
   margin: 140px 0 150px;
   border: none;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 740px) {
+  .quiz__button {
+    font-size: 18px;
+  }
 }

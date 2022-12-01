@@ -6,3 +6,10 @@
     padding: 0;
     margin: 0 0 30px;
 }
+
+@media screen and (max-width: 740px) {
+  .quiz__prompt {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+}

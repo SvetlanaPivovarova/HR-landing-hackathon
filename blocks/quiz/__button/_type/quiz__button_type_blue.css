@@ -8,3 +8,14 @@
   margin-bottom: 21px;
   align-self: end;
 }
+
+@media screen and (max-width: 740px) {
+  .quiz__button_type_blue {
+    width: 160px;
+    height: 47px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

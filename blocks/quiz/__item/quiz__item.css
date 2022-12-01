@@ -8,3 +8,12 @@
   font-size: 22px;
   border: 1px solid #C2C2C2;
 }
+
+@media screen and (max-width: 740px) {
+  .quiz__item {
+    max-width: 100%;
+    font-size: 17px;
+    padding: 12px 16px;
+    margin-right: 0;
+  }
+}
