@@ -164,15 +164,3 @@
 @import url(../blocks/form/__yandex-forms/form__yandex-forms.css);
 
 
-/* @keyframes a {
-  from {
-    transform: translateY(0) rotate(0);
-  }
-  to {
-    transform: translateY(730px) rotate(360deg);
-  }
-}
-
-.roles__item {
-  animation: a 2s;
-} */
