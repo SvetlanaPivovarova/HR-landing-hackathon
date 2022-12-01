@@ -12,7 +12,7 @@
   background-color: var(--blue-button-hover);
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
   .quiz__button_type_blue {
     width: 160px;
     height: 47px;

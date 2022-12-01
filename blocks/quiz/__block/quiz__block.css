@@ -5,7 +5,7 @@
   line-height: 1.2;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
   .quiz__block {
     padding: 80px 20px 0;
   }

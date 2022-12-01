@@ -9,7 +9,7 @@
   border: 1px solid #C2C2C2;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
   .quiz__item {
     max-width: 100%;
     font-size: 17px;

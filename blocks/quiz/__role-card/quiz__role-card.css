@@ -8,3 +8,9 @@
   padding: 85px 20px 0 95px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 480px) {
+  .quiz__role-card {
+    padding: 35px 27px 69px 28px ;
+  }
+}
