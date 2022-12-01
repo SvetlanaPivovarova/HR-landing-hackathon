@@ -7,3 +7,12 @@
   top: -12px;
   right: -12px;
 }
+@media screen and (max-width: 900px) {
+  .expert__rectangle {
+    width: 100px;
+    height: 91%;
+    top: auto;
+    bottom: -12px;
+    left: -12px;
+  }
+}

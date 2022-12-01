@@ -4,3 +4,15 @@
   line-height: 102.2%;
   margin: 0;
 }
+@media screen and (max-width: 1240px) {
+  .expert__title {
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .expert__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

@@ -13,3 +13,21 @@
   right: 60px;
   z-index: 1;
 }
+@media screen and (max-width: 1240px) {
+  .expert__btn {
+    right: 20px;
+    top: 85px;
+    width: 260px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .expert__btn {
+    top: auto;
+    right: auto;
+    bottom: -37px;
+    left: 0;
+    width: 310px;
+    font-size: 24px;
+  }
+}

@@ -3,3 +3,9 @@
   opacity: 0;
   transition: opacity 1.2s linear;
 }
+@media screen and (max-width: 900px) {
+  .expert__list {
+    gap: 13px;
+    display: flex;
+  }
+}
