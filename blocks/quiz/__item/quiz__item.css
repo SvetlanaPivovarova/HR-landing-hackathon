@@ -3,7 +3,8 @@
   padding: 16px 10px;
   margin: 0 20px 20px 0;
   box-sizing: border-box;
-  max-width: 751px;
+  max-width: 760px;
   border-radius: 21px;
   font-size: 22px;
+  border: 1px solid #C2C2C2;
 }

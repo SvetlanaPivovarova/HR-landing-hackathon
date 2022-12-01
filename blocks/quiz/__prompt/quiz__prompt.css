@@ -1,6 +1,8 @@
 .quiz__prompt {
     font-size: 17px;
-    line-height: 19.92px;
-    font-weight: 500;
+    line-height: 1.2;
+    font-weight: var(--font-weight-medium);
     color: #8B8989;
+    padding: 0;
+    margin: 0 0 30px;
 }

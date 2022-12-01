@@ -1,7 +1,8 @@
 .quiz__title {
+  max-width: 751px;
     font-size: 42px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     padding: 0;
     margin-bottom: 20px;
 }
