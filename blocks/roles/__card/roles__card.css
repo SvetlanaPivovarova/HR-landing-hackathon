@@ -5,3 +5,25 @@
   justify-content: space-around;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 1024px) {
+  .roles__card {
+    max-width: 100%;
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .roles__card {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .roles__card {
+    margin-bottom: 40px;
+    align-items: center;
+    padding: 30px;
+  }
+}

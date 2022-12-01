@@ -2,3 +2,10 @@
   max-width: 416px;
   max-height: 167px;
 }
+
+@media screen and (max-width: 480px) {
+  .roles__image {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}

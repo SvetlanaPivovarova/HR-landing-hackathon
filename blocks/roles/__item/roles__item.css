@@ -39,3 +39,18 @@
 .roles__item:nth-of-type(n) {
   margin-left: calc(-585px + (60px));
 }
+
+@media screen and (max-width: 1024px) {
+  .roles__item:nth-of-type(n) {
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .roles__item {
+    max-height: 335px;
+    width: 100%;
+    margin-bottom: calc(-494px + (15px));
+  }
+}
