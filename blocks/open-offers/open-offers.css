@@ -7,3 +7,10 @@
   flex-direction: column;
   position: relative;
 }
+
+@media screen and (max-width: 480px) {
+  .open-offers {
+    padding: 0 21px 19px 20px;
+    background-color: var(--medium-bezh-background);
+  }
+}

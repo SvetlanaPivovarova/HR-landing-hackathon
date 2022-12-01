@@ -3,7 +3,17 @@
   padding: 16px 10px;
   margin: 0 20px 20px 0;
   box-sizing: border-box;
-  max-width: 751px;
+  max-width: 760px;
   border-radius: 21px;
   font-size: 22px;
+  border: 1px solid #C2C2C2;
+}
+
+@media screen and (max-width: 480px) {
+  .quiz__item {
+    max-width: 100%;
+    font-size: 17px;
+    padding: 12px 16px;
+    margin-right: 0;
+  }
 }

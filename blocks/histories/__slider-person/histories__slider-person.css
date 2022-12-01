@@ -1,6 +1,7 @@
 .histories__slider-person {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 24%;
+  margin-top: 75px;
+  width: 20.5%;
+  gap: 20px;
 }

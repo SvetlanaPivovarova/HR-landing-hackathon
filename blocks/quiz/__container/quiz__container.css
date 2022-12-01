@@ -1,3 +1,9 @@
 .quiz__container {
   display: flex;
 }
+
+@media screen and (max-width: 480px) {
+  .quiz__container {
+    position: relative;
+  }
+}

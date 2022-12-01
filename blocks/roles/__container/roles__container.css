@@ -2,4 +2,11 @@
   list-style: none;
   display: flex;
   position: relative;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .roles__container {
+    flex-direction: column-reverse;
+  }
 }

@@ -1,6 +1,17 @@
 .quiz__image {
   max-width: 342px;
   max-height: 342px;
-  align-self: center;
+  align-self: end;
   margin-right: 85px;
+  margin-bottom: 142px;
+}
+
+@media screen and (max-width: 480px) {
+  .quiz__image {
+    width: 107px;
+    height: 107px;
+    position: absolute;
+    top: 23px;
+    left: 134px;
+  }
 }

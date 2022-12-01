@@ -4,3 +4,10 @@
   line-height: 1.28;
   margin: 0 0 15px;
 }
+
+@media screen and (max-width: 480px) {
+  .faq__accordion-text {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

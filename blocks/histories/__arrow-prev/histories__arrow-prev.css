@@ -1,11 +1,25 @@
 .histories__arrow-prev {
   background-image: url(../../../images/histories-arrow.svg);
-  border-radius: 20px;
-  width: 50px;
-  height: 68px;
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  width: 37px;
+  height: 9px;
   position: absolute;
   cursor: pointer;
   top: 50%;
-  left: -30px;
+  left: 30px;
   transform: translate(-100%, -50%);
+  z-index: 2; */
+  background-color: var(--transparent-backround);
+  border: none;
+  height: 43px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 30px;
+  transform: translate(-100%, -50%);
+  z-index: 2;
 }

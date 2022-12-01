@@ -2,3 +2,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+  .quiz__main-container {
+    flex-direction: column;
+
+  }
+}

@@ -1,7 +1,4 @@
 .quiz {
-    padding: 140px 100px 0;
-    box-sizing: border-box;
-    background-color: var(--medium-bezh-background);
-    line-height: 1.2;
-    position: relative;
+  position: relative;
+  width: 100%;
 }

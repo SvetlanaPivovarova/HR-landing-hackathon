@@ -11,3 +11,12 @@
   height: 522px;
   width: 1291px;
 }
+
+@media screen and (max-width: 480px) {
+  .open-offers__blur {
+    width: 100%;
+    height: 695px;
+    padding-right: 21px;
+    padding-left:20px ;
+  }
+}
