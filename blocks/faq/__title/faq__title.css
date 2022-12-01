@@ -2,4 +2,12 @@
   font-weight: var(--font-weight-bold);
   font-size: 42px;
   line-height: 1.02;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .faq__title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }

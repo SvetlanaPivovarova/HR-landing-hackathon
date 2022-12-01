@@ -5,6 +5,7 @@ const popupCloseBtn = popup.querySelector('.popup__close');
 const expertBtn = document.querySelector(".expert__btn");
 const headerBtn = document.querySelector(".header__btn");
 const introBtn = document.querySelector(".intro__button");
+const faqBtn = document.querySelector(".faq__button")
 const elementScroll = document.querySelector("#open-offers");
 const roleButton = document.querySelectorAll(".quiz__button_type_yellow");
 
@@ -18,6 +19,7 @@ const scroll = element => {
 scroll(expertBtn);
 scroll(headerBtn);
 scroll(introBtn);
+scroll(faqBtn);
 scroll(roleButton[0]);
 scroll(roleButton[1]);
 
