@@ -9,6 +9,9 @@ const elementScroll = document.querySelector('#open-offers');
 
 const lists = document.querySelectorAll('.expert__list');
 
+const burgerBtn = document.querySelector('.header__btn-burger');
+const headerContainer = document.querySelector('.header__nav-container');
+
 const scroll = element => {
   element.addEventListener('click', () => {
     elementScroll.scrollIntoView({behavior: 'smooth'});
@@ -55,5 +58,10 @@ const scrollPage = () => {
   }
 }
 scrollPage();
+
+burgerBtn.addEventListener('click', () => {
+  headerContainer.classList.toggle('header__nav-container_active');
+  burgerBtn.classList.toggle('header__btn-burger_inactive');
+});
 
 window.addEventListener('scroll', scrollPage);

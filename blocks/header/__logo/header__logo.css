@@ -6,3 +6,8 @@
   display: block;
   margin-top: 10px;
 }
+@media screen and (max-width: 900px) {
+  .header__logo {
+    margin: 0;
+  }
+}

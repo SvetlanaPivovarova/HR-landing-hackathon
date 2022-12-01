@@ -8,8 +8,11 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lists/header__lists.css);
 @import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__btn-burger/header__btn-burger.css);
 @import url(../blocks/header/__list-link/header__list-link.css);
 @import url(../blocks/header/__btn/header__btn.css);
+@import url(../blocks/header/__btn-burger/_inactive/header__btn-burger_inactive.css);
+@import url(../blocks/header/__nav-container/_active/header__nav-container_active.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__img-block/intro__img-block.css);
@@ -106,8 +109,6 @@
 @import url(../blocks/expert/__btn/expert__btn.css);
 @import url(../blocks/expert/__container/expert__container.css);
 @import url(../blocks/expert/__desc/expert__desc.css);
-@import url(../blocks/expert/__desc/_b/expert__desc_size_b.css);
-@import url(../blocks/expert/__desc/_m/expert__desc_size_m.css);
 @import url(../blocks/expert/__lists/expert__lists.css);
 @import url(../blocks/expert/__number-container/expert__number-container.css);
 @import url(../blocks/expert/__number/expert__number.css);
@@ -162,5 +163,4 @@
 @import url(../blocks/form/__submit-container/form__submit-container.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__yandex-forms/form__yandex-forms.css);
-
 

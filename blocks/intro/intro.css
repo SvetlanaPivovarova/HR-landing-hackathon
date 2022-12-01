@@ -4,3 +4,15 @@
   min-height: 909px;
   padding: 50px 0 0 100px;
 }
+@media screen and (max-width: 900px) {
+  .intro {
+    padding-left: 50px;
+    min-height: 560px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .intro {
+    padding-top: 79px;
+    padding-left: 20px;
+  }
+}

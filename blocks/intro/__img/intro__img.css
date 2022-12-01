@@ -7,3 +7,11 @@
 .intro__img:first-of-type {
   margin: 0;
 }
+@media screen and (max-width: 700px) {
+  .intro__img {
+    margin: 0;
+    background-size: 155px 104px;
+    width: 155px;
+    height: 104px;
+  }
+}

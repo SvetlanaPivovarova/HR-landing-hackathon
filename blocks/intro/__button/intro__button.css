@@ -12,3 +12,17 @@
   cursor: pointer;
   border: none;
 }
+@media screen and (max-width: 900px) {
+  .intro__button {
+    margin-top: 65px;
+    padding: 15px 30px;
+    font-size: 22px;
+    line-height: 21px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .intro__button {
+    padding: 10px 22px;
+    font-size: 18px;
+  }
+}

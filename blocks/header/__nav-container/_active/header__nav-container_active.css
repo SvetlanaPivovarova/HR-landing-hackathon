@@ -1,0 +1,14 @@
+.header__nav-container_active {
+  display: flex;
+  z-index: 4;
+  flex-direction: column;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  gap: 40px;
+  background-color: var(--white-background);
+  width: 100%;
+  padding-bottom: 61px;
+  padding-top: 79px;
+  border-radius: 0 0 50px 50px;
+}

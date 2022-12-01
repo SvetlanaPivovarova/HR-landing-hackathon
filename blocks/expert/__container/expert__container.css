@@ -8,3 +8,16 @@
   display: flex;
   background-color: var(--white-background);
 }
+@media screen and (max-width: 1240px) {
+  .expert__container {
+    width: 874px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .expert__container {
+    width: 300px;
+    height: 527px;
+    margin-top: 40px;
+  }
+}
