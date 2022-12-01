@@ -30,13 +30,22 @@
 @import url(../blocks/intro/__img/_img9/intro__img_type_img9.css);
 @import url(../blocks/intro/__img/_img10/intro__img_type_img10.css);
 @import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz/__block/quiz__block.css);
+@import url(../blocks/quiz/__block/_type/quiz__block_type_answer.css);
+@import url(../blocks/quiz/__block/_type/quiz__block_type_active.css);
+@import url(../blocks/quiz/__block/_type/quiz__block_type_unactive.css);
+@import url(../blocks/quiz/__block/_type/quiz__block_type_absolute.css);
 @import url(../blocks/quiz/__title/quiz__title.css);
 @import url(../blocks/quiz/__prompt/quiz__prompt.css);
+@import url(../blocks/quiz/__main-container/quiz__main-container.css);
 @import url(../blocks/quiz/__container/quiz__container.css);
 @import url(../blocks/quiz/__items/quiz__items.css);
 @import url(../blocks/quiz/__item/quiz__item.css);
-@import url(../blocks/quiz/_type/quiz_type_role.css);
-@import url(../blocks/quiz/_type/quiz_type_reverse.css);
+@import url(../blocks/quiz/__button/quiz__button.css);
+@import url(../blocks/quiz/__button/_type/quiz__button_type_blue.css);
+@import url(../blocks/quiz/__role/quiz__role.css);
+@import url(../blocks/quiz/__role/_type/quiz__role_type_reverse.css);
+@import url(../blocks/quiz/__role-container/quiz__role-container.css);
 @import url(../blocks/quiz/__role-card/quiz__role-card.css);
 @import url(../blocks/quiz/__card-title/quiz__card-title.css);
 @import url(../blocks/quiz/__card-text/quiz__card-text.css);
@@ -46,7 +55,6 @@
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_below.css);
 @import url(../blocks/quiz/__role-card/_type/quiz__role-card_type_over.css);
 @import url(../blocks/quiz/__image/quiz__image.css);
-@import url(../blocks/quiz/__button/quiz__button.css);
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/histories/__container/histories__container.css);
 @import url(../blocks/histories/__title/histories__title.css);
@@ -109,6 +117,8 @@
 @import url(../blocks/expert/__number/expert__number.css);
 @import url(../blocks/expert/__rectangle/expert__rectangle.css);
 @import url(../blocks/expert/__title/expert__title.css);
+@import url(../blocks/expert/__list/expert__list.css);
+@import url(../blocks/expert/__list/_active/expert__list_active.css);
 @import url(../blocks/roles/roles.css);
 @import url(../blocks/roles/__title/roles__title.css);
 @import url(../blocks/roles/__container/roles__container.css);
@@ -143,7 +153,6 @@
 @import url(../blocks/form/__checkbox/form__checkbox.css);
 @import url(../blocks/form/__container-stack/form__container-stack.css);
 @import url(../blocks/form/__container/form__container.css);
-@import url(../blocks/form/__container/_margins/form__container_type_margins.css);
 @import url(../blocks/form/__field/form__field.css);
 @import url(../blocks/form/__field/_big/form__field_type_big.css);
 @import url(../blocks/form/__field/_padding/form__field_type_padding.css);
@@ -153,5 +162,7 @@
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__label/_b/form__label_size_b.css);
 @import url(../blocks/form/__label/_m/form__label_size_m.css);
+@import url(../blocks/form/__label/_little/form__label_type_little.css);
 @import url(../blocks/form/__submit-container/form__submit-container.css);
 @import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__yandex-forms/form__yandex-forms.css);

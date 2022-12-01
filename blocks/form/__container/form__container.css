@@ -1,4 +1,5 @@
 .form__container {
   display: flex;
-  gap: 80px;
+  justify-content: space-between;
+  gap: 20px;
 }

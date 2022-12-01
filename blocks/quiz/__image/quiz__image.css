@@ -1,7 +1,7 @@
 .quiz__image {
-  position: absolute;
-  bottom: 81px;
-  right: 116px;
   max-width: 342px;
   max-height: 342px;
+  align-self: end;
+  margin-right: 85px;
+  margin-bottom: 142px;
 }

@@ -10,6 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   >
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/quiz.js" type="module"></script>
   <script src="./scripts/createFaculties.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
   <script src="./scripts/createOffers.js" type="module"></script>
@@ -36,14 +37,14 @@
           <li class="header__list"><a href="#" class="header__list-link">Контакты</a></li>
         </ul>
       </nav>
-      <button class="header__btn">Кого мы ищем</button>
+      <button type="button" class="header__btn">Кого мы ищем</button>
     </div>
   </header>
   <main class="content">
     <section class="intro">
       <h1 class="intro__title">Станьте наставником<br> или ревьюером</h1>
       <p class="intro__subtitle">Делись своим опытом<br> в программировании, анализе данных, менеджменте, маркетинге или дизайне и получай дополнительный доход.</p>
-      <button class="intro__button">Хочу делиться опытом</button>
+      <button type="button" class="intro__button">Хочу делиться опытом</button>
       <div class="intro__img-container">
         <div class="intro__img-block intro__img-block_type_left">
           <div class="intro__img intro__img_type_img1"></div>
@@ -71,65 +72,84 @@
         </div>
       </div>
     </section>
+
+    <!--Блок "Опрос"-->
     <section class="quiz">
-      <h2 class="quiz__title">Над чем хочу работать:</h2>
-      <p class="quiz__prompt">Выберете 4 варианта*</p>
-      <div class="quiz__container">
-        <ul class="quiz__items">
-          <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
-          <li class="quiz__item">Делиться опытом и мотивировать</li>
-          <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
-          <li class="quiz__item">Проверять код и проекты студентов</li>
-          <li class="quiz__item">Давать корректирующую обратную связь</li>
-          <li class="quiz__item">Простыми словами объяснять им их ошибки</li>
-          <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
-        </ul>
+      <!--Блок "Вопрос"-->
+      <div class="quiz__block quiz__block_type_active quiz__block_type_question">
+        <h2 class="quiz__title">Чтобы узнать подходящую роль, выберите, чем вы&nbsp;хотите заниматься</h2>
+        <p class="quiz__prompt">Не больше 4-х вариантов</p>
+        <div class="quiz__container">
+          <ul class="quiz__items">
+            <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
+            <li class="quiz__item">Давать корректирующую обратную связь</li>
+            <li class="quiz__item">Проверять код и проекты студентов</li>
+            <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
+            <li class="quiz__item">Делиться опытом и мотивировать</li>
+            <li class="quiz__item">Простыми словами объяснять им их ошибки</li>
+            <li class="quiz__item">Проводить вебинары 2 раза в месяц и давать обратную связь</li>
+          </ul>
+        </div>
+        <button type="button" class="quiz__button quiz__button_type_blue">Узнать роль</button>
+      </div>
+
+      <!--Блок "Ответ"-->
+      <div class="quiz__block quiz__block_type_unactive quiz__block_type_answer">
+        <div class="quiz__role ">
+          <div class="quiz__role-card quiz__role-card_type_over quiz__role_type_reverse">
+            <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
+            <div class="quiz__main-container">
+              <div class="quiz__role-container">
+                <p class="quiz__card-text">Задачи ревьюера</p>
+                <ul class="quiz__card-tasks">
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Проверять проекты студентов.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Простыми словами объяснять им ошибки.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Давать корректирующую обратную связь.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Оценивать работы – зачёт / незачет.</p>
+                  </li>
+                </ul>
+                <button class="quiz__button quiz__button_type_yellow" type="button">Смотреть вакансии</button>
+              </div>
+              <img class="quiz__image"  src="./images/review.svg" alt="Ревьюер">
+            </div>
+          </div>
+          <div class="quiz__role-card quiz__role-card_type_below ">
+            <h2 class="quiz__card-title">Вам может быть интересна роль Наставника</h2>
+            <div class="quiz__main-container">
+              <div class="quiz__role-container">
+                <p  class="quiz__card-text">Задачи наставника</p>
+                <ul class="quiz__card-tasks">
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Помогать студентам ставить цели,
+                      рефлексировать и делать выводы.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Отвечать на их вопросы в чате.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Проводить вебинары и давать
+                      обратную связь 2 раза в месяц.</p>
+                  </li>
+                  <li class="quiz__card-task">
+                    <p class="quiz__card-task-item">Делиться опытом и мотивировать.</p>
+                  </li>
+                </ul>
+                <button class="quiz__button quiz__button_type_yellow" type="button">Смотреть вакансии</button>
+              </div>
+              <img class="quiz__image" src="./images/mentor.svg" alt="Наставник">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="quiz quiz_type_role quiz_type_reverse">
-      <div class="quiz__role-card quiz__role-card_type_below">
-        <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
-        <p class="quiz__card-text">Задачи ревьюера</p>
-        <ul class="quiz__card-tasks">
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Проверять проекты студентов.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Простыми словами объяснять им ошибки.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Давать корректирующую обратную связь.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Оценивать работы – зачёт / незачет.</p>
-          </li>
-        </ul>
-        <button class="quiz__button" type="button">Хочу делиться опытом</button>
-        <img class="quiz__image"  src="./images/portrait_placeholder.png" alt="Ревьюер">
-      </div>
-      <div class="quiz__role-card quiz__role-card_type_over">
-        <h2 class="quiz__card-title">Вам может быть интересна роль Наставника</h2>
-        <p  class="quiz__card-text">Задачи ревьюера</p>
-        <ul class="quiz__card-tasks">
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Помогать студентам ставить цели,
-              рефлексировать и делать выводы.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Отвечать на их вопросы в чате.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Проводить вебинары и давать
-              обратную связь 2 раза в месяц.</p>
-          </li>
-          <li class="quiz__card-task">
-            <p class="quiz__card-task-item">Делиться опытом и мотивировать.</p>
-          </li>
-        </ul>
-        <button class="quiz__button" type="button">Хочу делиться опытом</button>
-        <img class="quiz__image" src="./images/portrait_placeholder.png" alt="Наставник">
-      </div>
-    </section>
+
     <section class="expert">
       <h2 class="expert__title">Как стать экспертом</h2>
       <div class="expert__container">
@@ -172,7 +192,7 @@
     </section>
 
     <!--Блок "Открытые предложения"-->
-    <section class="open-offers">
+    <section class="open-offers" id="open-offers">
       <h2 class="open-offers__title">Открытые предложения</h2>
       <nav class="open-offers__nav-role">
         <ul class="open-offers__roles">
@@ -385,11 +405,11 @@
           <input type="text" id="contacts" class="form__field form__field_type_big" required>
         </div>
         <div class="form__container">
-          <label for="role" class="form__label">Какая роль вам ближе?</label>
+          <label for="role" class="form__label form__label_size_m">Какая роль вам ближе?</label>
           <input type="text" id="role" class="form__field" required>
         </div>
         <div class="form__container">
-          <label for="direction" class="form__label">Выберите направление (факультет)</label>
+          <label for="direction" class="form__label form__label_size_m">Выберите направление (факультет)</label>
           <input type="text" id="direction" class="form__field" required>
         </div>
         <div class="form__container-stack">
@@ -397,16 +417,17 @@
           <textarea id="stack" class="form__field form__field_type_size form__field_position_start form__field_type_resize form__field_type_padding" required></textarea>
         </div>
         <div class="form__container">
-          <label for="link" class="form__label">Ссылка на резюме (пожалуйста, проверьте, что вы открыли доступ к документу)</label>
+          <label for="link" class="form__label form__label_type_little">Ссылка на резюме (пожалуйста, проверьте, что вы открыли доступ к документу)</label>
           <input type="url" id="link" class="form__field form__field_type_big" required>
         </div>
-        <div class="form__container form__container_type_margins">
+        <div class="form__container">
           <input type="checkbox" id="approval" class="form__checkbox" required>
           <label for="approval" class="form__label form__label_size_b">Я даю согласие АНО ДПО “ШАД” и ООО “ЯНДЕКС на обработку указаных данных для целей рассмотрения анкеты и обратной связи по ней</label>
         </div>
         <div class="form__submit-container">
           <button type="submit" class="form__submit">Отправить</button>
         </div>
+        <p class="form__yandex-forms">Создано с помошью Yandex Forms</p>
       </form>
     </div>
   </div>
