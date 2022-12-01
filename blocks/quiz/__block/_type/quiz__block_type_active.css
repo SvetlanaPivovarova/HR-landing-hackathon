@@ -1,0 +1,6 @@
+.quiz__block_type_active {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+}

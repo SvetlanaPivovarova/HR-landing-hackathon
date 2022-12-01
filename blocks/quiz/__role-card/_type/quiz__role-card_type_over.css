@@ -1,3 +1,4 @@
 .quiz__role-card_type_over {
   z-index: 1;
+  background-color: var(--white-background);
 }
