@@ -3,6 +3,7 @@
   max-width: 453px;
   height: 46px;
   background-color: var(--white-background);
+  display: block;
 }
 
 @media screen and (max-width: 740px) {
@@ -13,7 +14,7 @@
 
 @media screen and (max-width: 480px) {
   .open-offers__nav-role {
-    max-width: 187px;
+    min-width: 374px;
     height: 35px;
   }
 }
