@@ -7,6 +7,8 @@ const headerBtn = document.querySelector('.header__btn');
 const introBtn = document.querySelector('.intro__button');
 const elementScroll = document.querySelector('#open-offers');
 
+const lists = document.querySelectorAll('.expert__list');
+
 const scroll = element => {
   element.addEventListener('click', () => {
     elementScroll.scrollIntoView({behavior: 'smooth'});
@@ -39,3 +41,18 @@ popup.addEventListener('keydown', evt => {
     closePopup(popup);
   }
 });
+
+const scrollPage = () => {
+  const page = window.pageYOffset;
+
+  for(let i = 0; i < lists.length; i++) {
+    if(page >= 1200 && page <= 2300) {
+      setTimeout(() => {
+        lists[i].classList.add('expert__list_active');
+        window.removeEventListener('scroll', scrollPage);
+      }, i * 1200);
+    }
+  }
+}
+
+window.addEventListener('scroll', scrollPage);
