@@ -4,3 +4,16 @@
   height: 46px;
   background-color: var(--white-background);
 }
+
+@media screen and (max-width: 740px) {
+  .open-offers__nav-role {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .open-offers__nav-role {
+    max-width: 187px;
+    height: 35px;
+  }
+}

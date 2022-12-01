@@ -7,3 +7,17 @@
   box-sizing: border-box;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 740px) {
+  .open-offers__role {
+    font-size: 16px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .open-offers__role {
+    font-size: 14px;
+  }
+}

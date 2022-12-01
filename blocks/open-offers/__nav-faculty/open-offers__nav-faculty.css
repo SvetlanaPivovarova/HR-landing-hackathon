@@ -1,3 +1,10 @@
 .open-offers__nav-faculty {
   margin: 30px 0 13px;
 }
+
+
+@media screen and (max-width: 480px) {
+  .open-offers__nav-faculty {
+    padding-bottom: 0;
+  }
+}
