@@ -5,3 +5,12 @@
   margin-top: 62px;
   gap: 30px;
 }
+@media screen and (max-width: 600px) {
+  .faculties__card-container {
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}

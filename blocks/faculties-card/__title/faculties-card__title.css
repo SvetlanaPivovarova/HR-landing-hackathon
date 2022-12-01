@@ -4,3 +4,10 @@
   line-height: 38px;
   margin: 0;
 }
+@media screen and (max-width: 600px) {
+  .faculties-card__title {
+    font-size: 18px;
+    line-height: 21px;
+    width: 243px;
+  }
+}

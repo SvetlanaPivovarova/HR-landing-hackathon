@@ -1,3 +1,8 @@
 .form__field_type_big {
   width: 392px;
 }
+@media screen and (max-width: 900px) {
+  .form__field_type_big {
+    width: 185px;
+  }
+}
