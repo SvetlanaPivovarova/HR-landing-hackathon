@@ -10,6 +10,7 @@
 }
 @media screen and (max-width: 675px) {
   .offers__rectangle {
-    right: -70%;
+    width: 217px;
+    height: 253px;
   }
 }
