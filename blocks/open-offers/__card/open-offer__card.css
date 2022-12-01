@@ -1,7 +1,22 @@
 .open-offer__card {
-  padding: 31px 0 39px 29px;
+  padding: 31px 32px 29px;
   box-sizing: border-box;
   border-radius: 20px;
-  min-width: 393px;
+  min-width: 334px;
+  min-height: 146px;
   background-color: var(--white-background);
+  position: relative;
+}
+
+.open-offer__card::after {
+  content: url("../../../images/sorting.svg");
+  position: absolute;
+  bottom: 19.51px;
+  right: 19.51px;
+}
+
+@media screen and (max-width: 480px) {
+  .open-offer__card {
+    padding: 20px 27px 22px 29px;
+  }
 }

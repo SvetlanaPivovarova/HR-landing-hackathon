@@ -8,3 +8,15 @@
   gap: 30px;
   list-style: none;
 }
+
+@media screen and (max-width: 1200px) {
+  .open-offer__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .open-offer__container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -7,8 +7,9 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 970px) {
   .open-offer__faculties {
     min-width: 100%;
+    flex-wrap: wrap;
   }
 }
