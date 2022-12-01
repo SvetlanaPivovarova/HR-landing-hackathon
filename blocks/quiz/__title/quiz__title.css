@@ -7,7 +7,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
   .quiz__title {
     max-width: 100%;
     font-size: 24px;

@@ -1,8 +1,19 @@
 .open-offer__faculty {
-    display: block;
+  display: block;
   font-size: 20px;
   line-height: 1.2;
   padding: 0;
   margin-right: 60px;
   color: rgba(0, 0, 0, 0.39);
+}
+
+.open-offer__faculty:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .open-offer__faculty {
+    font-size: 14px;
+    margin-right: 35px;
+  }
 }

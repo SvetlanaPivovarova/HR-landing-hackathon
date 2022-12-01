@@ -3,3 +3,9 @@
   line-height: 1.2;
   font-weight: var(--font-weight-bold);
 }
+
+@media screen and (max-width: 480px) {
+  .open-offers__title {
+    font-size: 24px;
+  }
+}
