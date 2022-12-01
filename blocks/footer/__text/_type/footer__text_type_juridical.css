@@ -3,3 +3,10 @@
   font-size: 18px;
   line-height: 1.28;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text_type_juridical {
+    font-size: 13px;
+    line-height: 1.38;
+  }
+}
