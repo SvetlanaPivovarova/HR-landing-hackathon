@@ -5,3 +5,10 @@
   color: var(--main-title-color);
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text {
+    font-size: 15px;
+    line-height: 1.17;
+  }
+}

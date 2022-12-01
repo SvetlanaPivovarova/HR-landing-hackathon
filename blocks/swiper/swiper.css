@@ -4,3 +4,9 @@
   height: 457px;
   border-radius: 54px;
 }
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    min-height: 557px;
+  }
+}

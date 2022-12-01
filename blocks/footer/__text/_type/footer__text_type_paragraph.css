@@ -4,3 +4,13 @@
   line-height: 1.28;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text_type_paragraph {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}
