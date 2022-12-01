@@ -12,3 +12,9 @@
 .faculties-card:hover {
   box-shadow: 0 0 17px var(--bg-hover);
 }
+@media screen and (max-width: 600px) {
+  .faculties-card {
+    width: 263px;
+    height: 150px;
+  }
+}

@@ -6,3 +6,9 @@
   text-transform: uppercase;
   margin: 0;
 }
+@media screen and (max-width: 600px) {
+  .faculties-card__number-courses {
+    font-size: 15px;
+    line-height: 121.7%;
+  }
+}

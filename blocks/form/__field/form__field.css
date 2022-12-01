@@ -7,3 +7,8 @@
   width: 116px;
   align-self: center;
 }
+@media screen and (max-width: 900px) {
+  .form__field {
+    width: 158px;
+  }
+}

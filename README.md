@@ -32,6 +32,33 @@ ______
 **Технологии**
 
 В проекте применены:
+* HTML5;
+* CSS3;
+* JavaScript;
+* методология БЭМ;
+
+**Библиотеки**
+
+В проекте применены:
+* swiper: https://swiperjs.com/
+* Любовь: в наших сердцах
+
+**Ключевые точки для media queries**
+* 1439px;
+* 1240px;
+* 1200px;
+* 1100px;
+* 1024px;
+* 970px;
+* 900px;
+* 840px;
+* 740px;
+* 700px;
+* 600;
+* 480px;
+
+**Размещение проекта**
+* Ссылка на GH Pages: https://svetlanapivovarova.github.io/HR-landing-hackathon/
 * HTML
 * CSS
 * JavaScript  

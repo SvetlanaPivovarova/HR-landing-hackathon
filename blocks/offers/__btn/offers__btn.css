@@ -9,3 +9,9 @@
   cursor: pointer;
   margin-top: 38px;
 }
+@media screen and (max-width: 675px) {
+  .offers__btn {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}

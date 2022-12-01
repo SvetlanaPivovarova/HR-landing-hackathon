@@ -6,3 +6,11 @@
   margin: 17px 0 0 0;
   max-width: 365px;
 }
+@media screen and (max-width: 600px) {
+  .faculties-card__courses {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+    max-width: 223px;
+  }
+}
