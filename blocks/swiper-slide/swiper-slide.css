@@ -1,0 +1,6 @@
+.swiper-slide {
+  gap: 71px;
+  background-color: var(--white-background);
+  width: 877px;
+  display: flex;
+}

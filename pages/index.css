@@ -59,13 +59,13 @@
 @import url(../blocks/histories/__container/histories__container.css);
 @import url(../blocks/histories/__title/histories__title.css);
 @import url(../blocks/histories/__subtitle/histories__subtitle.css);
-@import url(../blocks/histories/__slider/histories__slider.css);
-@import url(../blocks/histories/__slider-item/histories__slider-item.css);
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper-wrapper/swiper-wrapper.css);
+@import url(../blocks/swiper-slide/swiper-slide.css);
 @import url(../blocks/histories/__slider-subtitle/histories__slider-subtitle.css);
 @import url(../blocks/histories/__slider-person/histories__slider-person.css);
 @import url(../blocks/histories/__slider-image/histories__slider-image.css);
 @import url(../blocks/histories/__slider-title/histories__slider-title.css);
-@import url(../blocks/histories/__arrows/histories__arrows.css);
 @import url(../blocks/histories/__arrow-prev/histories__arrow-prev.css);
 @import url(../blocks/histories/__arrow-next/histories__arrow-next.css);
 @import url(../blocks/faculties/faculties.css);
@@ -166,5 +166,3 @@
 @import url(../blocks/form/__submit-container/form__submit-container.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__yandex-forms/form__yandex-forms.css);
-
-
