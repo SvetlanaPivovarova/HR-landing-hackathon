@@ -3,7 +3,7 @@
   min-height: 61px;
   border-radius: 30px;
   background-color: var(--yellow-button);
-  margin: 140px 0 150px;
+  margin: 140px 0 81px;
   border: none;
   font-size: 20px;
   line-height: 1.2;
@@ -15,7 +15,7 @@
   background-color: var(--yellow-button-hover);
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 480px) {
   .quiz__button {
     font-size: 18px;
   }

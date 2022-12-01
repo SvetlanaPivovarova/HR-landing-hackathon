@@ -75,7 +75,7 @@
     <!--Блок "Опрос"-->
     <section class="quiz">
       <!--Блок "Вопрос"-->
-      <div class="quiz__block quiz__block_type_active quiz__block_type_question">
+      <div class="quiz__block quiz__block_type_unactive quiz__block_type_question">
         <h2 class="quiz__title">Чтобы узнать подходящую роль, выберите, чем вы&nbsp;хотите заниматься</h2>
         <p class="quiz__prompt">Не больше 4-х вариантов</p>
         <div class="quiz__container">
@@ -93,9 +93,9 @@
       </div>
 
       <!--Блок "Ответ"-->
-      <div class="quiz__block quiz__block_type_unactive quiz__block_type_answer">
-        <div class="quiz__role quiz__role_type_reverse">
-          <div class="quiz__role-card quiz__role-card_type_below">
+      <div class="quiz__block quiz__block_type_active quiz__block_type_answer">
+        <div class="quiz__role ">
+          <div class="quiz__role-card quiz__role-card_type_over quiz__role_type_reverse">
             <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
             <div class="quiz__main-container">
               <div class="quiz__role-container">
@@ -116,10 +116,10 @@
                 </ul>
                 <button class="quiz__button" type="button">Смотреть вакансии</button>
               </div>
+              <img class="quiz__image"  src="./images/review.svg" alt="Ревьюер">
             </div>
-            <img class="quiz__image"  src="./images/review.svg" alt="Ревьюер">
           </div>
-          <div class="quiz__role-card quiz__role-card_type_over">
+          <div class="quiz__role-card quiz__role-card_type_below ">
             <h2 class="quiz__card-title">Вам может быть интересна роль Наставника</h2>
             <div class="quiz__main-container">
               <div class="quiz__role-container">
@@ -140,7 +140,7 @@
                     <p class="quiz__card-task-item">Делиться опытом и мотивировать.</p>
                   </li>
                 </ul>
-                <button class="quiz__button" type="button">Хочу делиться опытом</button>
+                <button class="quiz__button" type="button">Смотреть вакансии</button>
               </div>
               <img class="quiz__image" src="./images/mentor.svg" alt="Наставник">
             </div>

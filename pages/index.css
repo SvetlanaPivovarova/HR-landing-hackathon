@@ -31,6 +31,7 @@
 @import url(../blocks/intro/__img/_img10/intro__img_type_img10.css);
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__block/quiz__block.css);
+@import url(../blocks/quiz/__block/_type/quiz__block_type_answer.css);
 @import url(../blocks/quiz/__block/_type/quiz__block_type_active.css);
 @import url(../blocks/quiz/__block/_type/quiz__block_type_unactive.css);
 @import url(../blocks/quiz/__block/_type/quiz__block_type_absolute.css);
