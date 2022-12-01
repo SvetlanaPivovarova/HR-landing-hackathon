@@ -3,8 +3,6 @@
   width: 1149px;
   background-color: var(--white-background);
   border-radius: 40px;
-  opacity: 0;
-  visibility: hidden;
   flex-direction: column;
   position: relative;
   padding: 85px 0 0 95px;

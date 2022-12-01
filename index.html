@@ -10,6 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   > -->
   <script src="./scripts/index.js" type="module"></script>
+  <script src="./scripts/quiz.js" type="module"></script>
   <script src="./scripts/createFaculties.js" type="module"></script>
   <script src="./scripts/createRoles.js" type="module"></script>
   <script src="./scripts/createOffers.js" type="module"></script>
@@ -73,23 +74,27 @@
 
     <!--Блок "Опрос"-->
     <section class="quiz">
-      <h2 class="quiz__title">Чтобы узнать подходящую роль, выберите, чем вы&nbsp;хотите заниматься</h2>
-      <p class="quiz__prompt">Не больше 4-х вариантов</p>
-      <div class="quiz__container">
-        <ul class="quiz__items">
-          <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
-          <li class="quiz__item">Давать корректирующую обратную связь</li>
-          <li class="quiz__item">Проверять код и проекты студентов</li>
-          <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
-          <li class="quiz__item">Делиться опытом и мотивировать</li>
-          <li class="quiz__item">Простыми словами объяснять им их ошибки</li>
-          <li class="quiz__item">Проводить вебинары 2 раза в месяц и давать обратную связь</li>
-        </ul>
+      <!--Блок "Вопрос"-->
+      <div class="quiz__block quiz__block_type_absolute  quiz__block_type_unactive">
+        <h2 class="quiz__title">Чтобы узнать подходящую роль, выберите, чем вы&nbsp;хотите заниматься</h2>
+        <p class="quiz__prompt">Не больше 4-х вариантов</p>
+        <div class="quiz__container">
+          <ul class="quiz__items">
+            <li class="quiz__item">Помогать студентам ставить цели, рефлексировать и делать выводы</li>
+            <li class="quiz__item">Давать корректирующую обратную связь</li>
+            <li class="quiz__item">Проверять код и проекты студентов</li>
+            <li class="quiz__item">Оценивать работы - зачёт/незачёт</li>
+            <li class="quiz__item">Делиться опытом и мотивировать</li>
+            <li class="quiz__item">Простыми словами объяснять им их ошибки</li>
+            <li class="quiz__item">Проводить вебинары 2 раза в месяц и давать обратную связь</li>
+          </ul>
+        </div>
+        <button type="button" class="quiz__button quiz__button_type_blue">Узнать роль</button>
       </div>
-      <button type="button" class="quiz__button quiz__button_type_blue">Узнать роль</button>
 
       <!--Блок "Ответ"-->
-      <div class="quiz quiz_type_role quiz_type_reverse">
+      <div class="quiz__block quiz__block_type_active">
+        <div class="quiz__role quiz__role_type_reverse quiz_type_review">
           <div class="quiz__role-card quiz__role-card_type_below">
             <h2 class="quiz__card-title">Вам может быть интересна роль Ревьюера</h2>
             <div class="quiz__main-container">
@@ -140,6 +145,7 @@
               <img class="quiz__image" src="./images/mentor.svg" alt="Наставник">
             </div>
           </div>
+        </div>
       </div>
     </section>
 

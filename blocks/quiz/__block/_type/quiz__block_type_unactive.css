@@ -1,0 +1,4 @@
+.quiz__block_type_unactive {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,12 +1,15 @@
 .quiz__button_type_blue {
-  background-color: var(--border-color-expert);
+  background-color: var(--blue-button);
   color: var(--white-text);
   width: 182px;
   height: 56px;
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 21px;
-  align-self: end;
+}
+
+.quiz__button_type_blue:hover {
+  background-color: var(--blue-button-hover);
 }
 
 @media screen and (max-width: 740px) {

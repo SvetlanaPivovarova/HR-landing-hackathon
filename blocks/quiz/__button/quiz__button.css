@@ -2,11 +2,17 @@
   width: 338px;
   min-height: 61px;
   border-radius: 30px;
-  background-color: var(--yellow-intro-button);
+  background-color: var(--yellow-button);
   margin: 140px 0 150px;
   border: none;
   font-size: 20px;
   line-height: 1.2;
+  cursor: pointer;
+  transition: background-color .8s ease;
+}
+
+.quiz__button:hover {
+  background-color: var(--yellow-button-hover);
 }
 
 @media screen and (max-width: 740px) {
