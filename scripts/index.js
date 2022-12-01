@@ -54,5 +54,6 @@ const scrollPage = () => {
     }
   }
 }
+scrollPage();
 
 window.addEventListener('scroll', scrollPage);
