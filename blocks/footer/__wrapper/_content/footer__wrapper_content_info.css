@@ -2,6 +2,22 @@
   margin: 0 74px 0 0;
   display: flex;
   justify-content: space-between;
-  gap: 106px;
+  gap: 21%;
   min-width: 432px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__wrapper_content_info {
+    flex-direction: column;
+    margin: 0;
+    justify-content: flex-start;
+    gap: 21px;
+    margin: 30px 0 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__wrapper_content_info {
+    margin: 0 15% 0 0;
+  }
 }

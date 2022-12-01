@@ -5,3 +5,9 @@
   margin: 0;
   max-width: fit-content;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__wrapper-links_content_info {
+    gap: 10px;
+  }
+}
