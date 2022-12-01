@@ -1,8 +1,9 @@
 :root {
   --main-title-color: #000;
-  --histories-slider-text-color: #324A6D;
+  --histories-slider-text-color: #7F7F7F;
   --histories-slider-title-color: #1C2448;
   --white-background: #fff;
+  --transparent-backround: rgba(255, 255, 255, 0);
   --light-grey-background: rgba(217, 217, 217, .6);
   --medium-grey-background: #C2C2C2;
   --medium-bezh-background: #F7F7F7;
