@@ -12,6 +12,6 @@
     height: 107px;
     position: absolute;
     top: 23px;
-    left: 134px;
+    left: calc((100% - 107px) / 2);
   }
 }
