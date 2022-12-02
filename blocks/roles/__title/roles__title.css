@@ -4,6 +4,7 @@
   font-weight: var(--font-weight-bold);
   max-width: 365px;
   margin: 0;
+  align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
