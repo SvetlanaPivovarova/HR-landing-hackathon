@@ -51,6 +51,7 @@
   .roles__item {
     max-height: 335px;
     width: 100%;
-    margin-bottom: calc(-494px + (15px));
+    margin-bottom: calc(-375px + (25px));
+    min-height: 375px;
   }
 }
