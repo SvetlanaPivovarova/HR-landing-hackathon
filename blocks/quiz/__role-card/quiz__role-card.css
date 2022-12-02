@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 480px) {
   .quiz__role-card {
-    padding: 35px 27px 69px 28px ;
+    padding: 0 27px 69px 28px ;
     width: 100%;
   }
 }

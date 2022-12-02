@@ -4,3 +4,11 @@
   margin-left: -989px;
   width: 1149px;
 }
+
+@media screen and (max-width: 480px) {
+  .quiz__role-card_type_below {
+    margin-left: 0;
+    width: 100%;
+    margin-top: -727px;
+  }
+}

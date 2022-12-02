@@ -1,10 +1,9 @@
 .roles {
   display: flex;
   justify-content: space-between;
-  padding: 0 56px 0 100px;
+  padding: 140px 56px 142px 100px;
   box-sizing: border-box;
-  margin-bottom: 142px;
-  margin-top: 140px;
+  background-color: var(--medium-bezh-background);
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,10 +14,11 @@
 
 @media screen and (max-width: 480px) {
   .roles {
-    padding-right: 21px;
-    padding-left: 19px;
-    max-height: max-content;
+    padding-right: 20px;
+    padding-left: 22px;
+    padding-bottom: 450px;
+    min-height: 500px;
     margin-top: 0;
-    margin-bottom: 494px;
+
   }
 }

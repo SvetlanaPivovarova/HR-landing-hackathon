@@ -8,32 +8,32 @@
 
 .roles__item:nth-of-type(1) {
   background-color: var(--yellow-background);
-  z-index: 1;
+  z-index: 6;
 }
 
 .roles__item:nth-of-type(2) {
   background-color: var(--green--background);
-  z-index: -1;
+  z-index: 5;
 }
 
 .roles__item:nth-of-type(3) {
   background-color: var(--mint-background);
-  z-index: -2;
+  z-index: 4;
 }
 
 .roles__item:nth-of-type(4) {
   background-color: var(--purple-background);
-  z-index: -3;
+  z-index: 3;
 }
 
 .roles__item:nth-of-type(5) {
   background-color: var(--pink-background);
-  z-index: -4;
+  z-index: 2;
 }
 
 .roles__item:nth-of-type(6) {
   background-color: var(--orange-background);
-  z-index: -5;
+  z-index: 1;
 }
 
 .roles__item:nth-of-type(n) {
@@ -51,6 +51,7 @@
   .roles__item {
     max-height: 335px;
     width: 100%;
-    margin-bottom: calc(-494px + (15px));
+    margin-bottom: calc(-375px + (25px));
+    min-height: 375px;
   }
 }

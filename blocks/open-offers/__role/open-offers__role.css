@@ -11,13 +11,12 @@
 @media screen and (max-width: 740px) {
   .open-offers__role {
     font-size: 14px;
-    padding-top: 9px;
-    padding-bottom: 10px;
+    padding: 9px 25px 10px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .open-offers__role {
-
+    max-width: 187px;
   }
 }

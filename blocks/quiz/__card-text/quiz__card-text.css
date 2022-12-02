@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .quiz__card-title {
+  .quiz__card-text {
     font-size: 18px;
   }
 }

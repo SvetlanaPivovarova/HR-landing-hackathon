@@ -9,5 +9,7 @@
     max-width: 100%;
     font-size: 20px;
     font-weight: var(--font-weight-medium);
+    margin-top: 172px;
+    margin-bottom: 10px;
   }
 }

@@ -1,3 +1,11 @@
 .quiz__block_type_answer {
   padding: 47px 67px 54px 64px;
 }
+
+@media screen and (max-width: 480px) {
+  .quiz__block_type_answer {
+    padding: 0;
+    width: 100%;
+    margin-top: 100px;
+  }
+}
