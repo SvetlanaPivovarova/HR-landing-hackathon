@@ -1,9 +1,0 @@
-.footer__wrapper {
-  margin-top: 60px;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__wrapper {
-    margin-top: 35px;
-  }
-}

@@ -1,9 +1,0 @@
-.header__nav-container {
-  display: flex;
-  gap: 55px;
-}
-@media screen and (max-width: 900px) {
-  .header__nav-container {
-    display: none;
-  }
-}

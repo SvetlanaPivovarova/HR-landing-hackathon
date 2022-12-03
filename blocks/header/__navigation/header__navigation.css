@@ -1,9 +1,0 @@
-.header__navigation {
-  padding-top: 5px;
-}
-@media screen and (max-width: 900px) {
-  .header__navigation {
-    padding: 0;
-    margin-left: 20px;
-  }
-}

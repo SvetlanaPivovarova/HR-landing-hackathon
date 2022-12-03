@@ -1,9 +1,0 @@
-.intro__img-block_type_right {
-  top: -110px;
-  right: -270px;
-}
-@media screen and (max-width: 700px) {
-  .intro__img-block_type_right {
-    display: none;
-  }
-}
