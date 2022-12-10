@@ -400,13 +400,15 @@
           <label for="contacts" class="form__label">Телефон или Telegram</label>
           <input type="text" id="contacts" class="form__field form__field_type_big" required>
         </div>
-        <div class="form__container">
-          <label for="role" class="form__label form__label_size_m">Какая роль вам ближе?</label>
-          <input type="text" id="role" class="form__field" required>
-        </div>
-        <div class="form__container">
-          <label for="direction" class="form__label form__label_size_m">Выберите направление (факультет)</label>
-          <input type="text" id="direction" class="form__field" required>
+        <div class="form__container-block">
+          <div class="form__container form__container_type_column">
+            <label for="role" class="form__label form__label_size_m form__label_size_compressed">Какая роль вам ближе?</label>
+            <input type="text" id="role" class="form__field" required>
+          </div>
+          <div class="form__container form__container_type_column">
+            <label for="direction" class="form__label form__label_size_m form__label_size_compressed">Выберите направление (факультет)</label>
+            <input type="text" id="direction" class="form__field" required>
+          </div>
         </div>
         <div class="form__container-stack">
           <label for="stack" class="form__label form__label_size_m">Перечислите набор технологий, которыми вы владеете и уровень владения каждой</label>
@@ -427,6 +429,5 @@
       </form>
     </div>
   </div>
-
 </body>
 </html>

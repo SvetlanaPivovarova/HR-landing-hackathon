@@ -169,3 +169,6 @@
 @import url(../blocks/form/__submit-container/form__submit-container.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__yandex-forms/form__yandex-forms.css);
+@import url(../blocks/form/__container-block/__container-block.css);
+@import url(../blocks/form/__container/_column/form__container_type_column.css);
+@import url(../blocks/form/__label/_compressed/form__label_size_compressed.css);

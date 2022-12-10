@@ -9,3 +9,8 @@
     padding-left: 30px;
   }
 }
+@media screen and (max-width: 900px) {
+  .header {
+    border-bottom: 1px solid var(--light-grey-background);
+  }
+}

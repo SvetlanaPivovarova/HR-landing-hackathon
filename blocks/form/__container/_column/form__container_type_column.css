@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+  .form__container_type_column {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .form__container_type_column:first-of-type {
+    order: 2;
+  }
+}

@@ -6,5 +6,6 @@
 @media screen and (max-width: 900px) {
   .form__container-stack {
     align-items: center;
+    gap: 15px;
   }
 }
