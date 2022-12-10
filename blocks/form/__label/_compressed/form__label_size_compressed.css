@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+  .form__label_size_compressed {
+    max-width: 118px;
+  }
+}

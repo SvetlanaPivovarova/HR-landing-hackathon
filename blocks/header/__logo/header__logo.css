@@ -9,5 +9,8 @@
 @media screen and (max-width: 900px) {
   .header__logo {
     margin: 0;
+    background-size: 141px 20px;
+    width: 141px;
+    height: 20px;
   }
 }
