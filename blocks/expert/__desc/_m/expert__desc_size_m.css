@@ -1,7 +1,7 @@
 .expert__desc_size_m {
   max-width: 223px;
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1252px) {
   .expert__desc_size_m {
     max-width: 142px;
   }

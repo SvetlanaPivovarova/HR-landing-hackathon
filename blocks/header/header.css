@@ -12,5 +12,7 @@
 @media screen and (max-width: 900px) {
   .header {
     border-bottom: 1px solid var(--light-grey-background);
+    padding: 20px 32px 13px 18px;
+    box-sizing: border-box;
   }
 }

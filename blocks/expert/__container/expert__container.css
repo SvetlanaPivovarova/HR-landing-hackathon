@@ -8,13 +8,13 @@
   display: flex;
   background-color: var(--white-background);
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1252px) {
   .expert__container {
     width: 874px;
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 916px) {
   .expert__container {
     width: 300px;
     height: 527px;

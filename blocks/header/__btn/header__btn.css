@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 900px) {
   .header__btn {
-    padding: 7px 29px;
+    padding: 6px 26px;
     width: max-content;
     align-self: center;
   }

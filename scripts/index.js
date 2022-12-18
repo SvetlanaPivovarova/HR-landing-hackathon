@@ -1,30 +1,10 @@
-const offerBtn = document.querySelector('.offers__btn');
-const popup = document.querySelector('.popup');
-const popupCloseBtn = popup.querySelector('.popup__close');
+import * as variables from '../utils/constants.js';
 
-const expertBtn = document.querySelector(".expert__btn");
-const headerBtn = document.querySelector(".header__btn");
-const introBtn = document.querySelector(".intro__button");
-const faqBtn = document.querySelector(".faq__button")
-const elementScroll = document.querySelector("#open-offers");
-const roleButton = document.querySelectorAll(".quiz__button_type_yellow");
-
-const lists = document.querySelectorAll('.expert__list');
-
-const burgerBtn = document.querySelector('.header__btn-burger');
-const headerContainer = document.querySelector('.header__nav-container');
-
-const scroll = element => {
+variables.elementsScrollArr.forEach(element => {
   element.addEventListener('click', () => {
     elementScroll.scrollIntoView({behavior: 'smooth'});
   });
-};
-scroll(expertBtn);
-scroll(headerBtn);
-scroll(introBtn);
-scroll(faqBtn);
-scroll(roleButton[0]);
-scroll(roleButton[1]);
+});
 
 const openPopup = element => {
   element.classList.add('popup_active');
@@ -32,31 +12,31 @@ const openPopup = element => {
 const closePopup = element => {
   element.classList.remove('popup_active');
 }
-offerBtn.addEventListener('click', () => {
-  openPopup(popup);
+variables.offerBtn.addEventListener('click', () => {
+  openPopup(variables.popup);
 });
 
-popup.addEventListener('click', evt => {
-  if(evt.target === popup) {
-    closePopup(popup);
+variables.popup.addEventListener('click', evt => {
+  if(evt.target === variables.popup) {
+    closePopup(variables.popup);
   }
 });
-popupCloseBtn.addEventListener('click', () => {
-  closePopup(popup);
+variables.popupCloseBtn.addEventListener('click', () => {
+  closePopup(variables.popup);
 });
-popup.addEventListener('keydown', evt => {
+variables.popup.addEventListener('keydown', evt => {
   if(evt.key === 'Escape') {
-    closePopup(popup);
+    closePopup(variables.popup);
   }
 });
 
 const scrollPage = () => {
-  const page = window.pageYOffset;
+  const pageElement = variables.expert.getBoundingClientRect().top;
 
-  for(let i = 0; i < lists.length; i++) {
-    if(page >= 1200 && page <= 2300) {
+  for(let i = 0; i < variables.lists.length; i++) {
+    if(pageElement >= -280 && pageElement <= 630) {
       setTimeout(() => {
-        lists[i].classList.add('expert__list_active');
+        variables.lists[i].classList.add('expert__list_active');
         window.removeEventListener('scroll', scrollPage);
       }, i * 1200);
     }
@@ -64,9 +44,11 @@ const scrollPage = () => {
 }
 scrollPage();
 
-burgerBtn.addEventListener('click', () => {
-  headerContainer.classList.toggle('header__nav-container_active');
-  burgerBtn.classList.toggle('header__btn-burger_inactive');
+variables.burgerBtn.addEventListener('click', () => {
+  variables.headerContainer.classList.toggle('header__nav-container_active');
+  variables.burgerBtn.classList.toggle('header__btn-burger_inactive');
+  variables.header.classList.toggle('header_active');
 });
+
 
 window.addEventListener('scroll', scrollPage);

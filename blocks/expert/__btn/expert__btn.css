@@ -13,7 +13,7 @@
   right: 60px;
   z-index: 1;
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1252px) {
   .expert__btn {
     right: 20px;
     top: 85px;
@@ -21,7 +21,7 @@
     font-size: 18px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 916px) {
   .expert__btn {
     top: auto;
     right: auto;
