@@ -5,14 +5,14 @@
   margin: 17px 0 0 0;
   max-width: 197px;
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1252px) {
   .expert__desc {
     font-size: 18px;
     line-height: 121.7%;
     max-width: 142px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 916px) {
   .expert__desc {
     font-size: 15px;
   }
