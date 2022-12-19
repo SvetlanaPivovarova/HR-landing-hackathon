@@ -2,7 +2,7 @@ import * as variables from '../utils/constants.js';
 
 variables.elementsScrollArr.forEach(element => {
   element.addEventListener('click', () => {
-    elementScroll.scrollIntoView({behavior: 'smooth'});
+    variables.elementScroll.scrollIntoView({behavior: 'smooth'});
   });
 });
 

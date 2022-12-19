@@ -11,8 +11,8 @@
 @media screen and (max-width: 900px) {
   .form__submit {
     border-radius: 20px;
-    padding: 13px 34px;
-    font-size: 18px;
+    padding: 8px 34px;
+    font-size: 16px;
     line-height: 21px;
   }
 }

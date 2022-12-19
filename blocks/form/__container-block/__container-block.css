@@ -7,5 +7,6 @@
   .form__container-block {
     flex-direction: row;
     gap: 17px;
+    justify-content: center;
   }
 }
