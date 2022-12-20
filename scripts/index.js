@@ -8,9 +8,13 @@ variables.elementsScrollArr.forEach(element => {
 
 const openPopup = element => {
   element.classList.add('popup_active');
+
+  document.addEventListener('keydown', closePopupEsc);
 }
 const closePopup = element => {
   element.classList.remove('popup_active');
+
+  document.removeEventListener('keydown', closePopupEsc);
 }
 variables.offerBtn.addEventListener('click', () => {
   openPopup(variables.popup);
@@ -24,11 +28,11 @@ variables.popup.addEventListener('click', evt => {
 variables.popupCloseBtn.addEventListener('click', () => {
   closePopup(variables.popup);
 });
-variables.popup.addEventListener('keydown', evt => {
+const closePopupEsc = evt => {
   if(evt.key === 'Escape') {
     closePopup(variables.popup);
   }
-});
+}
 
 const scrollPage = () => {
   const pageElement = variables.expert.getBoundingClientRect().top;
