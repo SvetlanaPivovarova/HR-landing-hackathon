@@ -1,5 +1,5 @@
-import {faculties} from './facultiesArr.js';
-import {facultiesCard} from './facultiesCard.js'
+import { faculties } from './facultiesArr.js';
+import { facultiesCard } from './facultiesCard.js';
 
 const facultiesContainer = document.querySelector('.faculties__card-container');
 

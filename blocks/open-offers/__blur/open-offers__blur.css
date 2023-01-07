@@ -1,22 +1,16 @@
 .open-offers__blur {
   position: absolute;
   top: 200px;
-  left: 0;
-  padding-left: 78px;
-  padding-right: 70px;
+  left: 78px;
   box-sizing: border-box;
-  z-index: -1;
   background-color: var(--light-grey-background);
   filter: blur(92px);
   height: 522px;
-  width: 1291px;
+  width: 90%;
 }
-
 @media screen and (max-width: 480px) {
   .open-offers__blur {
-    width: 100%;
     height: 695px;
-    padding-right: 21px;
-    padding-left:20px ;
+    left: 20px;
   }
 }
