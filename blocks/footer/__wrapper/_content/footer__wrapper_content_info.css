@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   gap: 21%;
-  min-width: 432px;
+  max-width: 432px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +20,5 @@
     gap: 21px;
     margin: 30px 0 40px;
     max-width: 375px;
-    min-width: 350px;
   }
 }

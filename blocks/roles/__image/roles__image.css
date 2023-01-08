@@ -1,11 +1,16 @@
 .roles__image {
-  max-width: 416px;
-  max-height: 167px;
+  width: 265px;
+  height: 167px;
 }
 
+@media screen and (max-width: 1405px) {
+  .roles__image {
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 480px) {
   .roles__image {
-    max-width: 100%;
-    margin-bottom: 10px;
+    width: 275px;
+    height: 145px;
   }
 }

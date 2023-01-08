@@ -7,10 +7,11 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1405px) {
   .roles__title {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 40px;
+    font-size: 30px;
   }
 }
 
