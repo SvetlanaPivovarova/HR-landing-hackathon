@@ -9,5 +9,6 @@
   .form {
     max-width: 375px;
     margin-top: 20px;
+    gap: 10px;
   }
 }

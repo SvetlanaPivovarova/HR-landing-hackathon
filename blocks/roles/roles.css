@@ -5,20 +5,13 @@
   box-sizing: border-box;
   background-color: var(--medium-bezh-background);
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1405px) {
   .roles {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .roles {
     padding-right: 20px;
     padding-left: 22px;
     padding-bottom: 450px;
     min-height: 500px;
     margin-top: 0;
-
   }
 }

@@ -6,24 +6,20 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1405px) {
   .roles__card {
-    max-width: 100%;
+    width: 100%;
     justify-content: start;
+    padding: 30px;
+    box-sizing: border-box;
   }
 }
-
 @media screen and (max-width: 740px) {
   .roles__card {
-    max-width: 100%;
     margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .roles__card {
-    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
     align-items: center;
-    padding: 30px;
   }
 }

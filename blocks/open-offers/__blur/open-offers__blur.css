@@ -1,8 +1,7 @@
 .open-offers__blur {
   position: absolute;
   top: 200px;
-  left: 78px;
-  box-sizing: border-box;
+  left: 0;
   background-color: var(--light-grey-background);
   filter: blur(92px);
   height: 522px;
@@ -11,6 +10,5 @@
 @media screen and (max-width: 480px) {
   .open-offers__blur {
     height: 695px;
-    left: 20px;
   }
 }

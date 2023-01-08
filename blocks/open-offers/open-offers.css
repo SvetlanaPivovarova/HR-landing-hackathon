@@ -10,6 +10,14 @@
 
 @media screen and (max-width: 480px) {
   .open-offers {
-    padding: 0 21px 19px 20px;
+    padding-right: 21px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .open-offers {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

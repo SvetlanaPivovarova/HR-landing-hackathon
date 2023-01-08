@@ -5,10 +5,15 @@
   margin: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1405px) {
   .roles__heading {
     font-size: 22px;
-    margin-bottom: 10px;
     text-align: start;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .roles__heading {
+    max-width: 300px;
   }
 }

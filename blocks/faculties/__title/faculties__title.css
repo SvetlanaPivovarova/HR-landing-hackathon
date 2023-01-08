@@ -6,12 +6,14 @@
 }
 @media screen and (max-width: 1438px) {
   .faculties__title {
-    margin-left: 20px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 600px) {
   .faculties__title {
     font-size: 24px;
     line-height: 28px;
+    text-align: start;
+    margin-left: 20px;
   }
 }

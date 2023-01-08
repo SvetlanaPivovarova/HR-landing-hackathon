@@ -11,7 +11,11 @@
 }
 @media screen and (max-width: 675px) {
   .offers__rectangle {
-    width: 217px;
-    height: 253px;
+    background-image: url(../../../images/rectangle-mini.png);
+    background-size: 140px 160px;
+    width: 140px;
+    height: 160px;
+    top: auto;
+    bottom: 0;
   }
 }

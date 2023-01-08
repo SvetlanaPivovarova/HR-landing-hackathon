@@ -5,11 +5,14 @@
   padding: 0;
   margin: 0;
 }
-
+@media screen and (max-width: 740px) {
+  .roles__text {
+    max-width: 300px;
+    text-align: start;
+  }
+}
 @media screen and (max-width: 480px) {
   .roles__text {
-    max-width: 100%;
     font-size: 18px;
-    text-align: start;
   }
 }
