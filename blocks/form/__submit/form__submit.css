@@ -8,7 +8,7 @@
   border: none;
   width: max-content;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__submit {
     border-radius: 20px;
     padding: 8px 34px;

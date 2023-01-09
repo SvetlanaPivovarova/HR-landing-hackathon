@@ -1,8 +1,13 @@
 .form__field_type_big {
   width: 392px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__field_type_big {
     width: 185px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__field_type_big {
+    width: 140px;
   }
 }

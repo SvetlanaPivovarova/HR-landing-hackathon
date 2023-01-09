@@ -38,7 +38,7 @@ const scrollPage = () => {
   const pageElement = variables.expert.getBoundingClientRect().top;
 
   for(let i = 0; i < variables.lists.length; i++) {
-    if(pageElement >= -280 && pageElement <= 630) {
+    if(pageElement >= -280 && pageElement <= 610) {
       setTimeout(() => {
         variables.lists[i].classList.add('expert__list_active');
         window.removeEventListener('scroll', scrollPage);

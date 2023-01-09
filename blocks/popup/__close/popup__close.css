@@ -8,8 +8,16 @@
   height: 20px;
   cursor: pointer;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .popup__close {
     right: -20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .popup__close {
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    right: 0;
   }
 }

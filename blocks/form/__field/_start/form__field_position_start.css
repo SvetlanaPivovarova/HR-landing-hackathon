@@ -1,7 +1,7 @@
 .form__field_position_start {
   align-self: flex-start;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__field_position_start {
     align-self: center;
   }

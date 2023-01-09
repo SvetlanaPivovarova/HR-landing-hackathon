@@ -1,8 +1,14 @@
 .form__label_size_m {
   width: 589px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__label_size_m {
     max-width: 338px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__label_size_m {
+    max-width: 320px;
+    text-align: center;
   }
 }
