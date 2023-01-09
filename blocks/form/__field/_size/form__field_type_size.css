@@ -2,9 +2,14 @@
   width: 652px;
   height: 146px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__field_type_size {
     width: 324px;
     height: 88px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__field_type_size {
+    width: 280px;
   }
 }

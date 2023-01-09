@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 20px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__container-block {
     flex-direction: row;
     gap: 17px;

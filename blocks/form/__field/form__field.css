@@ -8,8 +8,13 @@
   align-self: center;
   box-sizing: border-box;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__field {
     width: 158px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__field {
+    width: 120px;
   }
 }

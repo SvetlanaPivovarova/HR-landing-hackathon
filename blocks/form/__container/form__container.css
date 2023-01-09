@@ -3,3 +3,8 @@
   justify-content: space-between;
   gap: 15px;
 }
+@media screen and (max-width: 480px) {
+  .form__container {
+    justify-content: space-evenly;
+  }
+}

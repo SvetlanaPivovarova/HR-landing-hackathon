@@ -5,8 +5,14 @@
   cursor: auto;
   position: relative;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .popup__container {
-    padding: 20px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .popup__container {
+    padding: 10px;
   }
 }

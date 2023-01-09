@@ -3,9 +3,14 @@
   flex-direction: column;
   gap: 20px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .form__container-stack {
     align-items: center;
     gap: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form__container-stack {
+    gap: 5px;
   }
 }
